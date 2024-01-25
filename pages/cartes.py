@@ -34,28 +34,28 @@ default_shapefiles = {
 # Organize file paths by distance categories
 buffers = {
     "500m": {
-    "Utilisation du sol 500m": r"C:\Users\thier\Downloads\Projet\sol_500m.shp",
-    "Rivières 500m": r"C:\Users\thier\Downloads\Projet\rivieres_buffers_500m.shp",
-    "Réseau ferroviaire 500m": r"C:\Users\thier\Downloads\Projet\railroad_buffers_500m.shp",
-    "Routes 500m": r"C:\Users\thier\Downloads\Projet\roads_buffers_500m.shp",
-    "Pente 500m": r"C:\Users\thier\Downloads\Projet\slope_500m.shp",
-    "Couverture forestière  500m": r"C:\Users\thier\Downloads\Projet\landcover_500m.shp",
+        "Utilisation du sol 500m": "files/sol_500m.shp",
+        "Rivières 500m": "files/rivieres_buffers_500m.shp",
+        "Réseau ferroviaire 500m": "files/railroad_buffers_500m.shp",
+        "Routes 500m": "files/roads_buffers_500m.shp",
+        "Pente 500m": "files/slope_500m.shp",
+        "Couverture forestière 500m": "files/landcover_500m.shp",
     },
     "1km": {
-    "Utilisation du sol 1km": r"C:\Users\thier\Downloads\Projet\sol_1km.shp",
-    "Rivières 1km": r"C:\Users\thier\Downloads\Projet\rivieres_buffers_1km.shp",
-    "Réseau ferroviaire 1km": r"C:\Users\thier\Downloads\Projet\railroad_buffers_1km.shp",
-    "Routes 1km": r"C:\Users\thier\Downloads\Projet\roads_buffers_1km.shp",
-    "Pente 1km": r"C:\Users\thier\Downloads\Projet\slope_1km.shp",
-    "Couverture forestière  1km": r"C:\Users\thier\Downloads\Projet\landcover_1km.shp",   # ... Add 1km shapefiles
+        "Utilisation du sol 1km": "files/sol_1km.shp",
+        "Rivières 1km": "files/rivieres_buffers_1km.shp",
+        "Réseau ferroviaire 1km": "files/railroad_buffers_1km.shp",
+        "Routes 1km": "files/roads_buffers_1km.shp",
+        "Pente 1km": "files/slope_1km.shp",
+        "Couverture forestière 1km": "files/landcover_1km.shp",
     },
     "2km": {
-    "Utilisation du sol 2km": r"C:\Users\thier\Downloads\Projet\sol_2km.shp",
-    "Rivières 2km": r"C:\Users\thier\Downloads\Projet\rivieres_buffers_2km.shp",
-    "Réseau ferroviaire 2km": r"C:\Users\thier\Downloads\Projet\railroad_buffers_2km_2.shp",
-    "Routes 2km": r"C:\Users\thier\Downloads\Projet\roads_buffers_2km.shp",
-    "Pente 2km": r"C:\Users\thier\Downloads\Projet\slope_2km.shp",
-    "Couverture forestière  2km": r"C:\Users\thier\Downloads\Projet\landcover_2km.shp",    # ... Add 2km shapefiles
+        "Utilisation du sol 2km": "files/sol_2km.shp",
+        "Rivières 2km": "files/rivieres_buffers_2km.shp",
+        "Réseau ferroviaire 2km": "files/railroad_buffers_2km_2.shp",
+        "Routes 2km": "files/roads_buffers_2km.shp",
+        "Pente 2km": "files/slope_2km.shp",
+        "Couverture forestière 2km": "files/landcover_2km.shp",
     }
 }
 
