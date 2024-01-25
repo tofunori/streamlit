@@ -35,27 +35,30 @@ default_shapefiles = {
 buffers = {
     "500m": {
         "Utilisation du sol 500m": "files/sol_500m.shp",
+        "Pente 500m": "files/slope_500m.shp",
+        "Couverture forestière 500m": "files/landcover_500m.shp",
         "Rivières 500m": "files/rivieres_buffers_500m.shp",
         "Réseau ferroviaire 500m": "files/railroad_buffers_500m.shp",
         "Routes 500m": "files/roads_buffers_500m.shp",
-        "Pente 500m": "files/slope_500m.shp",
-        "Couverture forestière 500m": "files/landcover_500m.shp",
+        
     },
     "1km": {
         "Utilisation du sol 1km": "files/sol_1km.shp",
+        "Pente 1km": "files/slope_1km.shp",
+        "Couverture forestière 1km": "files/landcover_1km.shp",
         "Rivières 1km": "files/rivieres_buffers_1km.shp",
         "Réseau ferroviaire 1km": "files/railroad_buffers_1km.shp",
         "Routes 1km": "files/roads_buffers_1km.shp",
-        "Pente 1km": "files/slope_1km.shp",
-        "Couverture forestière 1km": "files/landcover_1km.shp",
+        
     },
     "2km": {
         "Utilisation du sol 2km": "files/sol_2km.shp",
+        "Pente 2km": "files/slope_2km.shp",
+        "Couverture forestière 2km": "files/landcover_2km.shp",
         "Rivières 2km": "files/rivieres_buffers_2km.shp",
         "Réseau ferroviaire 2km": "files/railroad_buffers_2km_2.shp",
         "Routes 2km": "files/roads_buffers_2km.shp",
-        "Pente 2km": "files/slope_2km.shp",
-        "Couverture forestière 2km": "files/landcover_2km.shp",
+        
     }
 }
 
@@ -82,7 +85,27 @@ def add_shapefile_to_map(shapefile_name, gdf):
             cmap='Set1',
             legend_name='Category'
         )
-
+        
+    elif shapefile_name == "Couverture forestière 500m":
+        m.add_data(
+            data=gdf,
+            column='TYPE_COUV',  # Replace 'DESC_CAT' with actual column name
+            key_on='feature.properties.TYPE_COUV',
+            add_legend=False,
+            cmap='Paired',
+            legend_name='Category'
+        )   
+        
+    elif shapefile_name == "Pente 500m":
+        m.add_data(
+            data=gdf,
+            column='CL_PENT',  # Replace 'DESC_CAT' with actual column name
+            key_on='feature.properties.CL_PENT',
+            add_legend=False,
+            cmap='Set3',
+            legend_name='Category'
+        ) 
+        
     elif shapefile_name == "Rivières 500m":
         def style(feature):
             return {
@@ -112,26 +135,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
             zoom_to_layer=True
             # You can add other parameters as needed
         )
-        
-    elif shapefile_name == "Couverture forestière 500m":
-        m.add_data(
-            data=gdf,
-            column='TYPE_COUV',  # Replace 'DESC_CAT' with actual column name
-            key_on='feature.properties.TYPE_COUV',
-            add_legend=False,
-            cmap='Paired',
-            legend_name='Category'
-        )   
-        
-    elif shapefile_name == "Pente 500m":
-        m.add_data(
-            data=gdf,
-            column='CL_PENT',  # Replace 'DESC_CAT' with actual column name
-            key_on='feature.properties.CL_PENT',
-            add_legend=False,
-            cmap='Set3',
-            legend_name='Category'
-        )       
+              
     elif shapefile_name == "Routes 500m":
         # Define a style function for custom line color
         def route_style(feature):
@@ -157,6 +161,26 @@ def add_shapefile_to_map(shapefile_name, gdf):
             cmap='Set1',
             legend_name='Category'
         )
+        
+    elif shapefile_name == "Couverture forestière 1km":
+        m.add_data(
+            data=gdf,
+            column='TYPE_COUV',  # Replace 'DESC_CAT' with actual column name
+            key_on='feature.properties.TYPE_COUV',
+            add_legend=False,
+            cmap='Set1',
+            legend_name='Category'
+        )   
+        
+    elif shapefile_name == "Pente 1km":
+        m.add_data(
+            data=gdf,
+            column='CL_PENT',  # Replace 'DESC_CAT' with actual column name
+            key_on='feature.properties.CL_PENT',
+            add_legend=False,
+            cmap='Set3',
+            legend_name='Category'
+        )            
 
     elif shapefile_name == "Rivières 1km":
         def route_style(feature):
@@ -188,25 +212,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
             # You can add other parameters as needed
         )
         
-    elif shapefile_name == "Couverture forestière 1km":
-        m.add_data(
-            data=gdf,
-            column='TYPE_COUV',  # Replace 'DESC_CAT' with actual column name
-            key_on='feature.properties.TYPE_COUV',
-            add_legend=False,
-            cmap='Set1',
-            legend_name='Category'
-        )   
-        
-    elif shapefile_name == "Pente 1km":
-        m.add_data(
-            data=gdf,
-            column='CL_PENT',  # Replace 'DESC_CAT' with actual column name
-            key_on='feature.properties.CL_PENT',
-            add_legend=False,
-            cmap='Set3',
-            legend_name='Category'
-        )       
+   
     elif shapefile_name == "Routes 1km":
         def style(feature):
             return {
