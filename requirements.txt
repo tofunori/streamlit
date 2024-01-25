@@ -3,4 +3,6 @@ leafmap
 geopandas
 fiona
 folium
+mapclassify
 # any other necessary packages
+
