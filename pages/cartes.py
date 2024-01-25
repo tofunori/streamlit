@@ -119,7 +119,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
             column='TYPE_COUV',  # Replace 'DESC_CAT' with actual column name
             key_on='feature.properties.TYPE_COUV',
             add_legend=False,
-            cmap='Set1',
+            cmap='Paired',
             legend_name='Category'
         )   
         
@@ -137,7 +137,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
         def route_style(feature):
             return {
                 'color': 'black',  # Set your desired line color here
-                'weight': 1,       # Set the line width
+                'weight': 2,       # Set the line width
                 'opacity': 1
             }
 
@@ -174,13 +174,18 @@ def add_shapefile_to_map(shapefile_name, gdf):
         )
        
     elif shapefile_name == "Réseau ferroviaire 1km":
-        m.add_data(
-            data=gdf,
-            column='Site',  # Replace 'DESC_CAT' with actual column name
-            key_on='feature.properties.Site',
-            add_legend=False,
-            cmap='Set1',
-            legend_name='Category'
+        def style(feature):
+            return {
+                'color': 'red',  # Set your desired line color here
+                'weight': 2,       # Set the line width
+                'opacity': 1
+            }
+        m.add_gdf(
+            gdf=gdf,
+            layer_name="Réseau ferroviaire 1km",
+            style_function=style,
+            zoom_to_layer=True
+            # You can add other parameters as needed
         )
         
     elif shapefile_name == "Couverture forestière  1km":
@@ -203,16 +208,21 @@ def add_shapefile_to_map(shapefile_name, gdf):
             legend_name='Category'
         )       
     elif shapefile_name == "Routes 1km":
-        m.add_data(
-            data=gdf,
-            column='length',  # Replace 'DESC_CAT' with actual column name
-            key_on='feature.properties.Site',
-            add_legend=False,
-            cmap='Set1',
-            legend_name='Category'
+        def style(feature):
+            return {
+                'color': 'black',  # Set your desired line color here
+                'weight': 1,       # Set the line width
+                'opacity': 1
+            }
+        m.add_gdf(  
+            gdf=gdf,
+            layer_name="Routes 1km",
+            style_function=style
+            # You can add other parameters as needed
         )
+        
     #2km buffer
-    
+
     if shapefile_name == "Utilisation du sol 2km":
         m.add_data(
             data=gdf,
