@@ -1,3 +1,4 @@
 streamlit
 leafmap
+geopandas
 # any other necessary packages
