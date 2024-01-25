@@ -162,7 +162,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
         def route_style(feature):
             return {
                 'color': 'blue',  # Set your desired line color here
-                'weight': 1,       # Set the line width
+                'weight': 2,       # Set the line width
                 'opacity': 1
             }
 
@@ -188,7 +188,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
             # You can add other parameters as needed
         )
         
-    elif shapefile_name == "Couverture forestière  1km":
+    elif shapefile_name == "Couverture forestière 1km":
         m.add_data(
             data=gdf,
             column='TYPE_COUV',  # Replace 'DESC_CAT' with actual column name
@@ -211,7 +211,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
         def style(feature):
             return {
                 'color': 'black',  # Set your desired line color here
-                'weight': 1,       # Set the line width
+                'weight': 2,       # Set the line width
                 'opacity': 1
             }
         m.add_gdf(  
@@ -253,7 +253,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
             legend_name='Category'
         )
         
-    elif shapefile_name == "Couverture forestière  2km":
+    elif shapefile_name == "Couverture forestière 2km":
         m.add_data(
             data=gdf,
             column='TYPE_COUV',  # Replace 'DESC_CAT' with actual column name
