@@ -38,4 +38,4 @@ with open(zip_file_path, "rb") as file:
         mime="application/zip"
     )
     
-    st.write("De plus le code source de l'application est disponible sur [GitHub](https://github.com/tofunori/Multi-buffers-data-extraction")
+    st.write("Le code source des analyses est disponible sur [GitHub](https://github.com/tofunori/Multi-buffers-data-extraction")
