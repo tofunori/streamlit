@@ -1,6 +1,6 @@
 import streamlit as st
 import geopandas as gpd
-import altair as alt
+import plotly.express as px
 
 # Dictionary of buffers with available columns for each shapefile
 buffers = {
@@ -40,6 +40,7 @@ shapefile_options = [(key + ' - ' + k, v[0], v[1]) for key, buffer in buffers.it
 selected_option = st.sidebar.selectbox('Select a shapefile', shapefile_options, format_func=lambda x: x[0])
 selected_shapefile_name, selected_shapefile_path, available_columns = selected_option
 
+
 # Load the selected data
 df_chart = gpd.read_file(selected_shapefile_path)
 
@@ -58,14 +59,15 @@ else:
         # Aggregate data: Sum of 'value_column' for each combined category
         df_chart_sum = df_chart.groupby(['Site', 'combined'])[value_column].sum().reset_index()
 
-        # Create an Altair bar chart with color encoding
-        chart = alt.Chart(df_chart_sum).mark_bar().encode(
-            x=alt.X('combined', type='nominal', title="Site"),
-            y=alt.Y(value_column),
-            color=alt.Color('Site', type='nominal')  # Color encoding by 'Site'
-        )
+     # Create a Plotly bar chart
+        chart_title = f"Bar Chart for {selected_shapefile_name}"
+        fig = px.bar(df_chart_sum, x='combined', y=value_column, color='Site',
+                     labels={'combined': 'Site', value_column: 'Value'},
+                     title=chart_title)
+
+
 
         # Display the chart in Streamlit
-        st.altair_chart(chart, use_container_width=True)
+        st.plotly_chart(fig, use_container_width=True)
     else:
         st.write("The required columns are not available in the selected shapefile.")
