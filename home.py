@@ -3,7 +3,8 @@ import leafmap.foliumap as leafmap
 import geopandas as gpd
 
 st.title("**PICOM Corridors écologiques**")
-
+# Title for the sidebar
+st.sidebar.title("Menu")
 st.image('files/images/forest.jpg', caption='Photo: Fanny Bec')
 
 st.write("""

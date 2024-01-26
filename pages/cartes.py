@@ -11,6 +11,7 @@ st.set_page_config(
         'About': "# This is a header. This is an *extremely* cool app!",
     }
     )
+st.sidebar.title('Sidebar Title')
 
 st.title('Carte intéractive des données')
 col1, col2 = st.columns([8.5, 1.5])
