@@ -4,6 +4,8 @@ import geopandas as gpd
 
 st.title("**PICOM Corridors écologiques**")
 
+st.image('files/images/forest.jpg', caption='Corridor écologique')
+
 st.write("""
 
 Ce projet d’intervention dans la communauté se concentre sur la connectivité écologique et les corridors de conservation en Mauricie. L'objectif principal est de développer un plan de conservation pour le sud-ouest de la Mauricie, visant à faciliter le déplacement des espèces fauniques.
