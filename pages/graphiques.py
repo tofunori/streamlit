@@ -46,6 +46,7 @@ custom_titles = {
     "roads_buffers_2km.shp": "Total Road Length - 2km Buffer",
     "roads_buffers_500m.shp": "Total Road Length - 500m Buffer",
     "rivieres_buffers_500m.shp": "Total River Length - 500m Buffer",
+    "rivieres_buffers_2km.shp": "Total River Length - 2km Buffer",
     # ... add custom titles for all shapefiles ...
 }
 
