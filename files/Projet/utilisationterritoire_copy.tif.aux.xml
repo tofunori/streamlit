@@ -1,0 +1,5675 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="DataType">Thematic</MDI>
+  </Metadata>
+  <Metadata domain="Esri">
+    <MDI key="PyramidResamplingType">NEAREST</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <GDALRasterAttributeTable tableType="thematic">
+      <FieldDefn index="0">
+        <Name>OID</Name>
+        <Type>0</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="1">
+        <Name>Value</Name>
+        <Type>0</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="2">
+        <Name>Count</Name>
+        <Type>1</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="3">
+        <Name>CODE_UT</Name>
+        <Type>0</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="4">
+        <Name>classe_det</Name>
+        <Type>2</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="5">
+        <Name>CODE_CAT</Name>
+        <Type>0</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="6">
+        <Name>DESC_CAT</Name>
+        <Type>2</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <Row index="0">
+        <F>0</F>
+        <F>20</F>
+        <F>194</F>
+        <F>20</F>
+        <F>Eau</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="1">
+        <F>1</F>
+        <F>21</F>
+        <F>304514</F>
+        <F>21</F>
+        <F>Lac</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="2">
+        <F>2</F>
+        <F>22</F>
+        <F>12291</F>
+        <F>22</F>
+        <F>Mare et/ou eau peu profonde</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="3">
+        <F>3</F>
+        <F>23</F>
+        <F>52427</F>
+        <F>23</F>
+        <F>Réservoir</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="4">
+        <F>4</F>
+        <F>30</F>
+        <F>601</F>
+        <F>30</F>
+        <F>Sol nu, roc-sol à nu, sol dénudé ou semi-dénudé sec</F>
+        <F>7</F>
+        <F>Sol nu et lande</F>
+      </Row>
+      <Row index="5">
+        <F>5</F>
+        <F>55</F>
+        <F>59198</F>
+        <F>55</F>
+        <F>Friche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="6">
+        <F>6</F>
+        <F>101</F>
+        <F>349</F>
+        <F>101</F>
+        <F>Serre</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="7">
+        <F>7</F>
+        <F>120</F>
+        <F>41207</F>
+        <F>120</F>
+        <F>Agriculture indifférenciée</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="8">
+        <F>8</F>
+        <F>122</F>
+        <F>685466</F>
+        <F>122</F>
+        <F>Culture pérenne et pâturage</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="9">
+        <F>9</F>
+        <F>131</F>
+        <F>1912</F>
+        <F>131</F>
+        <F>Jachère</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="10">
+        <F>10</F>
+        <F>133</F>
+        <F>21536</F>
+        <F>133</F>
+        <F>Orge</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="11">
+        <F>11</F>
+        <F>136</F>
+        <F>38564</F>
+        <F>136</F>
+        <F>Avoine</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="12">
+        <F>12</F>
+        <F>137</F>
+        <F>8334</F>
+        <F>137</F>
+        <F>Seigle</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="13">
+        <F>13</F>
+        <F>140</F>
+        <F>88663</F>
+        <F>140</F>
+        <F>Blé</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="14">
+        <F>14</F>
+        <F>141</F>
+        <F>1036</F>
+        <F>141</F>
+        <F>Panic érigé</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="15">
+        <F>15</F>
+        <F>147</F>
+        <F>466489</F>
+        <F>147</F>
+        <F>Maïs</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="16">
+        <F>16</F>
+        <F>153</F>
+        <F>5124</F>
+        <F>153</F>
+        <F>Canola ou colza</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="17">
+        <F>17</F>
+        <F>158</F>
+        <F>429188</F>
+        <F>158</F>
+        <F>Soya</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="18">
+        <F>18</F>
+        <F>160</F>
+        <F>19907</F>
+        <F>160</F>
+        <F>Autre légumineuse</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="19">
+        <F>19</F>
+        <F>162</F>
+        <F>11</F>
+        <F>162</F>
+        <F>Pois</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="20">
+        <F>20</F>
+        <F>167</F>
+        <F>3989</F>
+        <F>167</F>
+        <F>Haricot</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="21">
+        <F>21</F>
+        <F>169</F>
+        <F>119</F>
+        <F>169</F>
+        <F>Ail/Oignon/Poireau</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="22">
+        <F>22</F>
+        <F>170</F>
+        <F>267</F>
+        <F>170</F>
+        <F>Carotte/Panais</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="23">
+        <F>23</F>
+        <F>172</F>
+        <F>3410</F>
+        <F>172</F>
+        <F>Crucifère (feuilles)</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="24">
+        <F>24</F>
+        <F>173</F>
+        <F>4</F>
+        <F>173</F>
+        <F>Légume à fruits</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="25">
+        <F>25</F>
+        <F>175</F>
+        <F>8783</F>
+        <F>175</F>
+        <F>Autre légume</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="26">
+        <F>26</F>
+        <F>177</F>
+        <F>97989</F>
+        <F>177</F>
+        <F>Pomme de terre</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="27">
+        <F>27</F>
+        <F>178</F>
+        <F>1774</F>
+        <F>178</F>
+        <F>Betterave à sucre</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="28">
+        <F>28</F>
+        <F>181</F>
+        <F>4365</F>
+        <F>181</F>
+        <F>Baie</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="29">
+        <F>29</F>
+        <F>182</F>
+        <F>10</F>
+        <F>182</F>
+        <F>Canneberge</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="30">
+        <F>30</F>
+        <F>183</F>
+        <F>415</F>
+        <F>183</F>
+        <F>Bleuet</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="31">
+        <F>31</F>
+        <F>188</F>
+        <F>9</F>
+        <F>188</F>
+        <F>Verger</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="32">
+        <F>32</F>
+        <F>194</F>
+        <F>687</F>
+        <F>194</F>
+        <F>Pépinière</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="33">
+        <F>33</F>
+        <F>195</F>
+        <F>871</F>
+        <F>195</F>
+        <F>Sarrasin</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="34">
+        <F>34</F>
+        <F>230</F>
+        <F>7461</F>
+        <F>230</F>
+        <F>Forêt mixte</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="35">
+        <F>35</F>
+        <F>253</F>
+        <F>50158</F>
+        <F>253</F>
+        <F>Coupe forestière</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="36">
+        <F>36</F>
+        <F>255</F>
+        <F>13353</F>
+        <F>255</F>
+        <F>Plantation</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="37">
+        <F>37</F>
+        <F>256</F>
+        <F>887</F>
+        <F>256</F>
+        <F>Plantation de feuillus indigènes</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="38">
+        <F>38</F>
+        <F>257</F>
+        <F>15091</F>
+        <F>257</F>
+        <F>Plantation mélangée indigène</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="39">
+        <F>39</F>
+        <F>258</F>
+        <F>33045</F>
+        <F>258</F>
+        <F>Plantation de résineux indigènes</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="40">
+        <F>40</F>
+        <F>263</F>
+        <F>245</F>
+        <F>263</F>
+        <F>Brûlis</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="41">
+        <F>41</F>
+        <F>280</F>
+        <F>153</F>
+        <F>280</F>
+        <F>Perturbation naturelle</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="42">
+        <F>42</F>
+        <F>300</F>
+        <F>3884</F>
+        <F>300</F>
+        <F>Autre terrain</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="43">
+        <F>43</F>
+        <F>301</F>
+        <F>715451</F>
+        <F>301</F>
+        <F>Zone développée</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="44">
+        <F>44</F>
+        <F>313</F>
+        <F>26462</F>
+        <F>313</F>
+        <F>Golf</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="45">
+        <F>45</F>
+        <F>320</F>
+        <F>125799</F>
+        <F>320</F>
+        <F>Route ou chemin</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="46">
+        <F>46</F>
+        <F>321</F>
+        <F>18284</F>
+        <F>321</F>
+        <F>Aéroport</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="47">
+        <F>47</F>
+        <F>322</F>
+        <F>7403</F>
+        <F>322</F>
+        <F>Chemin de fer</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="48">
+        <F>48</F>
+        <F>341</F>
+        <F>63379</F>
+        <F>341</F>
+        <F>Carrière ou gravière</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="49">
+        <F>49</F>
+        <F>343</F>
+        <F>1167</F>
+        <F>343</F>
+        <F>Mine et déchet de mine</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="50">
+        <F>50</F>
+        <F>344</F>
+        <F>583</F>
+        <F>344</F>
+        <F>Bassin de filtration, de décontamination, de déchets liquides, etc.</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="51">
+        <F>51</F>
+        <F>346</F>
+        <F>243</F>
+        <F>346</F>
+        <F>Zone industrielle et commerce</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="52">
+        <F>52</F>
+        <F>351</F>
+        <F>63035</F>
+        <F>351</F>
+        <F>Ligne de transmission ou de transport d'énergie</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="53">
+        <F>53</F>
+        <F>352</F>
+        <F>1028</F>
+        <F>352</F>
+        <F>Poste de transformation électrique</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="54">
+        <F>54</F>
+        <F>501</F>
+        <F>58542</F>
+        <F>501</F>
+        <F>Bouleau gris</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="55">
+        <F>55</F>
+        <F>502</F>
+        <F>5667</F>
+        <F>502</F>
+        <F>Bouleau gris associé à des pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="56">
+        <F>56</F>
+        <F>503</F>
+        <F>21913</F>
+        <F>503</F>
+        <F>Bouleau gris associé à des résineux tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="57">
+        <F>57</F>
+        <F>504</F>
+        <F>698</F>
+        <F>504</F>
+        <F>Bouleau gris associé à des résineux</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="58">
+        <F>58</F>
+        <F>505</F>
+        <F>4429</F>
+        <F>505</F>
+        <F>Bouleau jaune</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="59">
+        <F>59</F>
+        <F>509</F>
+        <F>2872</F>
+        <F>509</F>
+        <F>Bouleau jaune associé à de la pruche du Canada</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="60">
+        <F>60</F>
+        <F>510</F>
+        <F>223</F>
+        <F>510</F>
+        <F>Bouleau jaune associé à des résineux</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="61">
+        <F>61</F>
+        <F>511</F>
+        <F>2327</F>
+        <F>511</F>
+        <F>Bouleau jaune associé à des sapin baumier et/ou épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="62">
+        <F>62</F>
+        <F>514</F>
+        <F>41524</F>
+        <F>514</F>
+        <F>Bouleau blanc</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="63">
+        <F>63</F>
+        <F>516</F>
+        <F>2481</F>
+        <F>516</F>
+        <F>Bouleau blanc associé à des pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="64">
+        <F>64</F>
+        <F>517</F>
+        <F>572</F>
+        <F>517</F>
+        <F>Bouleau blanc associé à des résineux tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="65">
+        <F>65</F>
+        <F>518</F>
+        <F>31</F>
+        <F>518</F>
+        <F>Bouleau blanc associé à des résineux</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="66">
+        <F>66</F>
+        <F>519</F>
+        <F>17896</F>
+        <F>519</F>
+        <F>Bouleau blanc associé à des sapin baumier et/ou épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="67">
+        <F>67</F>
+        <F>521</F>
+        <F>16277</F>
+        <F>521</F>
+        <F>Chênes</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="68">
+        <F>68</F>
+        <F>522</F>
+        <F>1751</F>
+        <F>522</F>
+        <F>Chênes associés à des pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="69">
+        <F>69</F>
+        <F>523</F>
+        <F>801</F>
+        <F>523</F>
+        <F>Chênes associés à des résineux tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="70">
+        <F>70</F>
+        <F>524</F>
+        <F>518</F>
+        <F>524</F>
+        <F>Chênes associés à des résineux</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="71">
+        <F>71</F>
+        <F>529</F>
+        <F>954</F>
+        <F>529</F>
+        <F>Érable argenté</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="72">
+        <F>72</F>
+        <F>533</F>
+        <F>24917</F>
+        <F>533</F>
+        <F>Épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="73">
+        <F>73</F>
+        <F>534</F>
+        <F>14839</F>
+        <F>534</F>
+        <F>Épinette blanche associée à des feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="74">
+        <F>74</F>
+        <F>535</F>
+        <F>2727</F>
+        <F>535</F>
+        <F>Épinette blanche associée à des feuillus tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="75">
+        <F>75</F>
+        <F>536</F>
+        <F>547</F>
+        <F>536</F>
+        <F>Épinette blanche associée à des feuillus indéterminés</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="76">
+        <F>76</F>
+        <F>545</F>
+        <F>1</F>
+        <F>545</F>
+        <F>Épinette noire associée à du sapin baumier</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="77">
+        <F>77</F>
+        <F>547</F>
+        <F>355998</F>
+        <F>547</F>
+        <F>Érable rouge</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="78">
+        <F>78</F>
+        <F>548</F>
+        <F>392</F>
+        <F>548</F>
+        <F>Érable rouge associé à des épinettes noire ou rouge</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="79">
+        <F>79</F>
+        <F>549</F>
+        <F>786</F>
+        <F>549</F>
+        <F>Érable rouge associé à du mélèze laricin</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="80">
+        <F>80</F>
+        <F>550</F>
+        <F>25085</F>
+        <F>550</F>
+        <F>Érable rouge associé à des pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="81">
+        <F>81</F>
+        <F>551</F>
+        <F>27918</F>
+        <F>551</F>
+        <F>Érable rouge associé à de la pruche du Canada</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="82">
+        <F>82</F>
+        <F>552</F>
+        <F>22377</F>
+        <F>552</F>
+        <F>Érable rouge associé à des résineux</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="83">
+        <F>83</F>
+        <F>553</F>
+        <F>84565</F>
+        <F>553</F>
+        <F>Érable rouge associé à des sapin baumier et/ou épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="84">
+        <F>84</F>
+        <F>554</F>
+        <F>543</F>
+        <F>554</F>
+        <F>Érable rouge associé à du thuyas occidental</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="85">
+        <F>85</F>
+        <F>556</F>
+        <F>124</F>
+        <F>556</F>
+        <F>Épinettes noire ou rouge associés à de l'épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="86">
+        <F>86</F>
+        <F>565</F>
+        <F>252211</F>
+        <F>565</F>
+        <F>Érables</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="87">
+        <F>87</F>
+        <F>566</F>
+        <F>2998</F>
+        <F>566</F>
+        <F>Érables associés à du bouleau jaune</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="88">
+        <F>88</F>
+        <F>569</F>
+        <F>3892</F>
+        <F>569</F>
+        <F>Érables associés à des pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="89">
+        <F>89</F>
+        <F>570</F>
+        <F>11285</F>
+        <F>570</F>
+        <F>Érables associés à de la pruche du Canada</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="90">
+        <F>90</F>
+        <F>571</F>
+        <F>5825</F>
+        <F>571</F>
+        <F>Érables associés à des résineux</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="91">
+        <F>91</F>
+        <F>572</F>
+        <F>16674</F>
+        <F>572</F>
+        <F>Érables associés à des sapin baumier et/ou épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="92">
+        <F>92</F>
+        <F>574</F>
+        <F>227036</F>
+        <F>574</F>
+        <F>Érable à sucre</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="93">
+        <F>93</F>
+        <F>575</F>
+        <F>1874</F>
+        <F>575</F>
+        <F>Érable à sucre associé à du bouleau jaune</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="94">
+        <F>94</F>
+        <F>578</F>
+        <F>681</F>
+        <F>578</F>
+        <F>Érable à sucre associé à des pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="95">
+        <F>95</F>
+        <F>579</F>
+        <F>1115</F>
+        <F>579</F>
+        <F>Érable à sucre associé à de la pruche du Canada</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="96">
+        <F>96</F>
+        <F>583</F>
+        <F>7356</F>
+        <F>583</F>
+        <F>Épinette rouge</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="97">
+        <F>97</F>
+        <F>584</F>
+        <F>414</F>
+        <F>584</F>
+        <F>Épinette rouge associée à du bouleau jaune</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="98">
+        <F>98</F>
+        <F>585</F>
+        <F>3309</F>
+        <F>585</F>
+        <F>Épinette rouge associée à des feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="99">
+        <F>99</F>
+        <F>586</F>
+        <F>2927</F>
+        <F>586</F>
+        <F>Épinette rouge associée à des feuillus tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="100">
+        <F>100</F>
+        <F>587</F>
+        <F>2012</F>
+        <F>587</F>
+        <F>Épinette rouge associée à des feuillus indéterminés</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="101">
+        <F>101</F>
+        <F>588</F>
+        <F>282</F>
+        <F>588</F>
+        <F>Épinette rouge associée à du mélèze laricin</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="102">
+        <F>102</F>
+        <F>589</F>
+        <F>1834</F>
+        <F>589</F>
+        <F>Épinette rouge associée à des pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="103">
+        <F>103</F>
+        <F>590</F>
+        <F>2997</F>
+        <F>590</F>
+        <F>Épinette rouge associée à des sapin baumier et/ou épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="104">
+        <F>104</F>
+        <F>595</F>
+        <F>135562</F>
+        <F>595</F>
+        <F>Feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="105">
+        <F>105</F>
+        <F>596</F>
+        <F>722</F>
+        <F>596</F>
+        <F>Feuillus intolérants associés à des épinettes noire ou rouge</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="106">
+        <F>106</F>
+        <F>598</F>
+        <F>6228</F>
+        <F>598</F>
+        <F>Feuillus intolérants associés à des pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="107">
+        <F>107</F>
+        <F>599</F>
+        <F>857</F>
+        <F>599</F>
+        <F>Feuillus intolérants associés à de la pruche du Canada</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="108">
+        <F>108</F>
+        <F>600</F>
+        <F>1620</F>
+        <F>600</F>
+        <F>Feuillus intolérants associés à des résineux</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="109">
+        <F>109</F>
+        <F>601</F>
+        <F>40911</F>
+        <F>601</F>
+        <F>Feuillus intolérants associés à des sapin baumier et/ou épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="110">
+        <F>110</F>
+        <F>603</F>
+        <F>1099</F>
+        <F>603</F>
+        <F>Frêne noir</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="111">
+        <F>111</F>
+        <F>615</F>
+        <F>66927</F>
+        <F>615</F>
+        <F>Feuillus tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="112">
+        <F>112</F>
+        <F>616</F>
+        <F>732</F>
+        <F>616</F>
+        <F>Feuillus tolérants associés à des épinettes noire ou rouge</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="113">
+        <F>113</F>
+        <F>618</F>
+        <F>9444</F>
+        <F>618</F>
+        <F>Feuillus tolérants associés à des pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="114">
+        <F>114</F>
+        <F>619</F>
+        <F>4007</F>
+        <F>619</F>
+        <F>Feuillus tolérants associés à de la pruche du Canada</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="115">
+        <F>115</F>
+        <F>620</F>
+        <F>6684</F>
+        <F>620</F>
+        <F>Feuillus tolérants associés à des résineux</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="116">
+        <F>116</F>
+        <F>621</F>
+        <F>18828</F>
+        <F>621</F>
+        <F>Feuillus tolérants associés à des sapin baumier et/ou épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="117">
+        <F>117</F>
+        <F>623</F>
+        <F>32470</F>
+        <F>623</F>
+        <F>Feuillus indéterminés</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="118">
+        <F>118</F>
+        <F>625</F>
+        <F>358</F>
+        <F>625</F>
+        <F>Feuillus indéterminés associés à du mélèze laricin</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="119">
+        <F>119</F>
+        <F>628</F>
+        <F>3873</F>
+        <F>628</F>
+        <F>Feuillus indéterminés associés à des sapin baumier et/ou épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="120">
+        <F>120</F>
+        <F>630</F>
+        <F>47965</F>
+        <F>630</F>
+        <F>Hêtre à grandes feuilles</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="121">
+        <F>121</F>
+        <F>631</F>
+        <F>768</F>
+        <F>631</F>
+        <F>Hêtre à grandes feuilles associé à des pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="122">
+        <F>122</F>
+        <F>632</F>
+        <F>627</F>
+        <F>632</F>
+        <F>Hêtre à grandes feuilles associé à des résineux tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="123">
+        <F>123</F>
+        <F>633</F>
+        <F>1615</F>
+        <F>633</F>
+        <F>Hêtre à grandes feuilles associé à des résineux</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="124">
+        <F>124</F>
+        <F>634</F>
+        <F>3950</F>
+        <F>634</F>
+        <F>Mélèze laricin</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="125">
+        <F>125</F>
+        <F>635</F>
+        <F>918</F>
+        <F>635</F>
+        <F>Mélèze laricin associé à des feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="126">
+        <F>126</F>
+        <F>636</F>
+        <F>2342</F>
+        <F>636</F>
+        <F>Mélèze laricin associé à des feuillus tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="127">
+        <F>127</F>
+        <F>637</F>
+        <F>2031</F>
+        <F>637</F>
+        <F>Mélèze laricin associé à des feuillus indéterminés</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="128">
+        <F>128</F>
+        <F>651</F>
+        <F>141854</F>
+        <F>651</F>
+        <F>Pin blanc</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="129">
+        <F>129</F>
+        <F>652</F>
+        <F>278</F>
+        <F>652</F>
+        <F>Pin blanc associé à du bouleau jaune</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="130">
+        <F>130</F>
+        <F>653</F>
+        <F>47922</F>
+        <F>653</F>
+        <F>Pin blanc associé à des érables</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="131">
+        <F>131</F>
+        <F>654</F>
+        <F>31397</F>
+        <F>654</F>
+        <F>Pin blanc associé à des feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="132">
+        <F>132</F>
+        <F>655</F>
+        <F>9526</F>
+        <F>655</F>
+        <F>Pin blanc associé à des feuillus tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="133">
+        <F>133</F>
+        <F>656</F>
+        <F>3722</F>
+        <F>656</F>
+        <F>Pin blanc associé à des feuillus indéterminés</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="134">
+        <F>134</F>
+        <F>658</F>
+        <F>334117</F>
+        <F>658</F>
+        <F>Peupliers</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="135">
+        <F>135</F>
+        <F>659</F>
+        <F>1142</F>
+        <F>659</F>
+        <F>Peupliers associés à des épinettes noire ou rouge</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="136">
+        <F>136</F>
+        <F>660</F>
+        <F>6100</F>
+        <F>660</F>
+        <F>Peupliers associés à des pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="137">
+        <F>137</F>
+        <F>661</F>
+        <F>1851</F>
+        <F>661</F>
+        <F>Peupliers associés à des résineux tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="138">
+        <F>138</F>
+        <F>662</F>
+        <F>1452</F>
+        <F>662</F>
+        <F>Peupliers associés à des résineux</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="139">
+        <F>139</F>
+        <F>663</F>
+        <F>37134</F>
+        <F>663</F>
+        <F>Peupliers associés à des sapin baumier et/ou épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="140">
+        <F>140</F>
+        <F>664</F>
+        <F>29471</F>
+        <F>664</F>
+        <F>Pin gris</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="141">
+        <F>141</F>
+        <F>665</F>
+        <F>3474</F>
+        <F>665</F>
+        <F>Pin gris associé à des feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="142">
+        <F>142</F>
+        <F>666</F>
+        <F>2510</F>
+        <F>666</F>
+        <F>Pin gris associé à des feuillus tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="143">
+        <F>143</F>
+        <F>667</F>
+        <F>412</F>
+        <F>667</F>
+        <F>Pin gris associé à des feuillus indéterminés</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="144">
+        <F>144</F>
+        <F>668</F>
+        <F>2035</F>
+        <F>668</F>
+        <F>Pins</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="145">
+        <F>145</F>
+        <F>669</F>
+        <F>2086</F>
+        <F>669</F>
+        <F>Pins associés à des feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="146">
+        <F>146</F>
+        <F>670</F>
+        <F>1758</F>
+        <F>670</F>
+        <F>Pins associés à des feuillus tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="147">
+        <F>147</F>
+        <F>672</F>
+        <F>2319</F>
+        <F>672</F>
+        <F>Pin rouge</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="148">
+        <F>148</F>
+        <F>675</F>
+        <F>969</F>
+        <F>675</F>
+        <F>Pin rouge associé à des érables</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="149">
+        <F>149</F>
+        <F>676</F>
+        <F>592</F>
+        <F>676</F>
+        <F>Pin rouge associé à des feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="150">
+        <F>150</F>
+        <F>677</F>
+        <F>509</F>
+        <F>677</F>
+        <F>Pin rouge associé à des feuillus tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="151">
+        <F>151</F>
+        <F>687</F>
+        <F>4444</F>
+        <F>687</F>
+        <F>Pruche du Canada</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="152">
+        <F>152</F>
+        <F>688</F>
+        <F>3538</F>
+        <F>688</F>
+        <F>Pruche du Canada associée à du bouleau jaune</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="153">
+        <F>153</F>
+        <F>689</F>
+        <F>10055</F>
+        <F>689</F>
+        <F>Pruche du Canada associée à des érables</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="154">
+        <F>154</F>
+        <F>690</F>
+        <F>894</F>
+        <F>690</F>
+        <F>Pruche du Canada associée à des feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="155">
+        <F>155</F>
+        <F>691</F>
+        <F>10171</F>
+        <F>691</F>
+        <F>Pruche du Canada associée à des feuillus tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="156">
+        <F>156</F>
+        <F>692</F>
+        <F>1473</F>
+        <F>692</F>
+        <F>Pruche du Canada associée à des feuillus indéterminés</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="157">
+        <F>157</F>
+        <F>693</F>
+        <F>2764</F>
+        <F>693</F>
+        <F>Résineux</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="158">
+        <F>158</F>
+        <F>696</F>
+        <F>5869</F>
+        <F>696</F>
+        <F>Résineux associés à des feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="159">
+        <F>159</F>
+        <F>699</F>
+        <F>56409</F>
+        <F>699</F>
+        <F>Sapin baumier</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="160">
+        <F>160</F>
+        <F>700</F>
+        <F>2236</F>
+        <F>700</F>
+        <F>Sapin baumier associé à du bouleau jaune</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="161">
+        <F>161</F>
+        <F>701</F>
+        <F>5553</F>
+        <F>701</F>
+        <F>Sapin baumier associé à des épinettes noire ou rouge</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="162">
+        <F>162</F>
+        <F>702</F>
+        <F>60292</F>
+        <F>702</F>
+        <F>Sapin baumier associé à des érables</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="163">
+        <F>163</F>
+        <F>703</F>
+        <F>51805</F>
+        <F>703</F>
+        <F>Sapin baumier associé à des feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="164">
+        <F>164</F>
+        <F>704</F>
+        <F>13279</F>
+        <F>704</F>
+        <F>Sapin baumier associé à des feuillus tolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="165">
+        <F>165</F>
+        <F>705</F>
+        <F>15277</F>
+        <F>705</F>
+        <F>Sapin baumier associé à des feuillus indéterminés</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="166">
+        <F>166</F>
+        <F>706</F>
+        <F>7911</F>
+        <F>706</F>
+        <F>Sapin baumier associé à du thuyas occidental</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="167">
+        <F>167</F>
+        <F>707</F>
+        <F>8380</F>
+        <F>707</F>
+        <F>Sapin baumier et/ou épinette blanche</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="168">
+        <F>168</F>
+        <F>708</F>
+        <F>327</F>
+        <F>708</F>
+        <F>Sapin baumier et/ou épinette blanche associés à du bouleau jaune</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="169">
+        <F>169</F>
+        <F>711</F>
+        <F>1965</F>
+        <F>711</F>
+        <F>Sapin baumier et/ou épinette blanche associés à des érables</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="170">
+        <F>170</F>
+        <F>712</F>
+        <F>8394</F>
+        <F>712</F>
+        <F>Sapin baumier et/ou épinette blanche associés à des feuillus intolérants</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="171">
+        <F>171</F>
+        <F>714</F>
+        <F>821</F>
+        <F>714</F>
+        <F>Sapin baumier et/ou épinette blanche associés à des feuillus indéterminés</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="172">
+        <F>172</F>
+        <F>724</F>
+        <F>689</F>
+        <F>724</F>
+        <F>Thuyas occidental</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="173">
+        <F>173</F>
+        <F>729</F>
+        <F>164</F>
+        <F>729</F>
+        <F>Thuyas occidental associé à des feuillus indéterminés</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="174">
+        <F>174</F>
+        <F>730</F>
+        <F>330</F>
+        <F>730</F>
+        <F>Peuplement issu d'une plantation de feuillus indigènes</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="175">
+        <F>175</F>
+        <F>731</F>
+        <F>39304</F>
+        <F>731</F>
+        <F>Peuplement issu d'une plantation mélangée indigène</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="176">
+        <F>176</F>
+        <F>732</F>
+        <F>204976</F>
+        <F>732</F>
+        <F>Peuplement issu d'une plantation de résineux indigènes</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="177">
+        <F>177</F>
+        <F>735</F>
+        <F>2426</F>
+        <F>735</F>
+        <F>Peuplement issu d'une plantation de résineux exotiques</F>
+        <F>2</F>
+        <F>Forestier</F>
+      </Row>
+      <Row index="178">
+        <F>178</F>
+        <F>2000</F>
+        <F>89939</F>
+        <F>2000</F>
+        <F>Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="179">
+        <F>179</F>
+        <F>2021</F>
+        <F>104</F>
+        <F>2021</F>
+        <F>Lac / Tourbière</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="180">
+        <F>180</F>
+        <F>2051</F>
+        <F>89</F>
+        <F>2051</F>
+        <F>Aulnaie / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="181">
+        <F>181</F>
+        <F>2055</F>
+        <F>662</F>
+        <F>2055</F>
+        <F>Friche / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="182">
+        <F>182</F>
+        <F>2120</F>
+        <F>3</F>
+        <F>2120</F>
+        <F>Agriculture indifférenciée / Tourbière</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="183">
+        <F>183</F>
+        <F>2122</F>
+        <F>442</F>
+        <F>2122</F>
+        <F>Culture pérenne et pâturage / Tourbière</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="184">
+        <F>184</F>
+        <F>2136</F>
+        <F>18</F>
+        <F>2136</F>
+        <F>Avoine / Tourbière</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="185">
+        <F>185</F>
+        <F>2140</F>
+        <F>11</F>
+        <F>2140</F>
+        <F>Blé / Tourbière</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="186">
+        <F>186</F>
+        <F>2147</F>
+        <F>858</F>
+        <F>2147</F>
+        <F>Maïs / Tourbière</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="187">
+        <F>187</F>
+        <F>2158</F>
+        <F>253</F>
+        <F>2158</F>
+        <F>Soya / Tourbière</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="188">
+        <F>188</F>
+        <F>2177</F>
+        <F>437</F>
+        <F>2177</F>
+        <F>Pomme de terre / Tourbière</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="189">
+        <F>189</F>
+        <F>2182</F>
+        <F>8</F>
+        <F>2182</F>
+        <F>Canneberge / Tourbière</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="190">
+        <F>190</F>
+        <F>2230</F>
+        <F>3621</F>
+        <F>2230</F>
+        <F>Forêt mixte / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="191">
+        <F>191</F>
+        <F>2253</F>
+        <F>8428</F>
+        <F>2253</F>
+        <F>Coupe forestière / Tourbière</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="192">
+        <F>192</F>
+        <F>2255</F>
+        <F>308</F>
+        <F>2255</F>
+        <F>Plantation / Tourbière</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="193">
+        <F>193</F>
+        <F>2257</F>
+        <F>147</F>
+        <F>2257</F>
+        <F>Plantation mélangée indigène / Tourbière</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="194">
+        <F>194</F>
+        <F>2258</F>
+        <F>2248</F>
+        <F>2258</F>
+        <F>Plantation de résineux indigènes / Tourbière</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="195">
+        <F>195</F>
+        <F>2263</F>
+        <F>23</F>
+        <F>2263</F>
+        <F>Brûlis / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="196">
+        <F>196</F>
+        <F>2280</F>
+        <F>1334</F>
+        <F>2280</F>
+        <F>Perturbation naturelle / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="197">
+        <F>197</F>
+        <F>2301</F>
+        <F>643</F>
+        <F>2301</F>
+        <F>Zone développée / Tourbière</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="198">
+        <F>198</F>
+        <F>2320</F>
+        <F>39</F>
+        <F>2320</F>
+        <F>Route ou chemin / Tourbière</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="199">
+        <F>199</F>
+        <F>2341</F>
+        <F>1</F>
+        <F>2341</F>
+        <F>Carrière ou gravière / Tourbière</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="200">
+        <F>200</F>
+        <F>2351</F>
+        <F>497</F>
+        <F>2351</F>
+        <F>Ligne de transmission ou de transport d'énergie / Tourbière</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="201">
+        <F>201</F>
+        <F>2501</F>
+        <F>4798</F>
+        <F>2501</F>
+        <F>Bouleau gris / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="202">
+        <F>202</F>
+        <F>2503</F>
+        <F>3155</F>
+        <F>2503</F>
+        <F>Bouleau gris associé à des résineux tolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="203">
+        <F>203</F>
+        <F>2504</F>
+        <F>1069</F>
+        <F>2504</F>
+        <F>Bouleau gris associé à des résineux / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="204">
+        <F>204</F>
+        <F>2505</F>
+        <F>42</F>
+        <F>2505</F>
+        <F>Bouleau jaune / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="205">
+        <F>205</F>
+        <F>2510</F>
+        <F>4</F>
+        <F>2510</F>
+        <F>Bouleau jaune associé à des résineux / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="206">
+        <F>206</F>
+        <F>2511</F>
+        <F>157</F>
+        <F>2511</F>
+        <F>Bouleau jaune associé à des sapin baumier et/ou épinette blanche / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="207">
+        <F>207</F>
+        <F>2514</F>
+        <F>228</F>
+        <F>2514</F>
+        <F>Bouleau blanc / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="208">
+        <F>208</F>
+        <F>2518</F>
+        <F>227</F>
+        <F>2518</F>
+        <F>Bouleau blanc associé à des résineux / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="209">
+        <F>209</F>
+        <F>2519</F>
+        <F>28</F>
+        <F>2519</F>
+        <F>Bouleau blanc associé à des sapin baumier et/ou épinette blanche / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="210">
+        <F>210</F>
+        <F>2521</F>
+        <F>26</F>
+        <F>2521</F>
+        <F>Chênes / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="211">
+        <F>211</F>
+        <F>2534</F>
+        <F>13</F>
+        <F>2534</F>
+        <F>Épinette blanche associée à des feuillus intolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="212">
+        <F>212</F>
+        <F>2538</F>
+        <F>4304</F>
+        <F>2538</F>
+        <F>Épinette noire / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="213">
+        <F>213</F>
+        <F>2543</F>
+        <F>1478</F>
+        <F>2543</F>
+        <F>Épinette noire associée à du mélèze laricin / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="214">
+        <F>214</F>
+        <F>2545</F>
+        <F>2255</F>
+        <F>2545</F>
+        <F>Épinette noire associée à du sapin baumier / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="215">
+        <F>215</F>
+        <F>2547</F>
+        <F>7523</F>
+        <F>2547</F>
+        <F>Érable rouge / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="216">
+        <F>216</F>
+        <F>2549</F>
+        <F>2758</F>
+        <F>2549</F>
+        <F>Érable rouge associé à du mélèze laricin / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="217">
+        <F>217</F>
+        <F>2550</F>
+        <F>1201</F>
+        <F>2550</F>
+        <F>Érable rouge associé à des pins / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="218">
+        <F>218</F>
+        <F>2551</F>
+        <F>66</F>
+        <F>2551</F>
+        <F>Érable rouge associé à de la pruche du Canada / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="219">
+        <F>219</F>
+        <F>2552</F>
+        <F>2666</F>
+        <F>2552</F>
+        <F>Érable rouge associé à des résineux / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="220">
+        <F>220</F>
+        <F>2553</F>
+        <F>4170</F>
+        <F>2553</F>
+        <F>Érable rouge associé à des sapin baumier et/ou épinette blanche / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="221">
+        <F>221</F>
+        <F>2554</F>
+        <F>352</F>
+        <F>2554</F>
+        <F>Érable rouge associé à du thuyas occidental / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="222">
+        <F>222</F>
+        <F>2565</F>
+        <F>780</F>
+        <F>2565</F>
+        <F>Érables / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="223">
+        <F>223</F>
+        <F>2566</F>
+        <F>46</F>
+        <F>2566</F>
+        <F>Érables associés à du bouleau jaune / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="224">
+        <F>224</F>
+        <F>2570</F>
+        <F>67</F>
+        <F>2570</F>
+        <F>Érables associés à de la pruche du Canada / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="225">
+        <F>225</F>
+        <F>2571</F>
+        <F>2</F>
+        <F>2571</F>
+        <F>Érables associés à des résineux / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="226">
+        <F>226</F>
+        <F>2572</F>
+        <F>73</F>
+        <F>2572</F>
+        <F>Érables associés à des sapin baumier et/ou épinette blanche / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="227">
+        <F>227</F>
+        <F>2574</F>
+        <F>35</F>
+        <F>2574</F>
+        <F>Érable à sucre / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="228">
+        <F>228</F>
+        <F>2583</F>
+        <F>999</F>
+        <F>2583</F>
+        <F>Épinette rouge / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="229">
+        <F>229</F>
+        <F>2585</F>
+        <F>233</F>
+        <F>2585</F>
+        <F>Épinette rouge associée à des feuillus intolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="230">
+        <F>230</F>
+        <F>2586</F>
+        <F>882</F>
+        <F>2586</F>
+        <F>Épinette rouge associée à des feuillus tolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="231">
+        <F>231</F>
+        <F>2587</F>
+        <F>1176</F>
+        <F>2587</F>
+        <F>Épinette rouge associée à des feuillus indéterminés / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="232">
+        <F>232</F>
+        <F>2595</F>
+        <F>3139</F>
+        <F>2595</F>
+        <F>Feuillus intolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="233">
+        <F>233</F>
+        <F>2601</F>
+        <F>1947</F>
+        <F>2601</F>
+        <F>Feuillus intolérants associés à des sapin baumier et/ou épinette blanche / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="234">
+        <F>234</F>
+        <F>2615</F>
+        <F>916</F>
+        <F>2615</F>
+        <F>Feuillus tolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="235">
+        <F>235</F>
+        <F>2618</F>
+        <F>185</F>
+        <F>2618</F>
+        <F>Feuillus tolérants associés à des pins / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="236">
+        <F>236</F>
+        <F>2621</F>
+        <F>1227</F>
+        <F>2621</F>
+        <F>Feuillus tolérants associés à des sapin baumier et/ou épinette blanche / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="237">
+        <F>237</F>
+        <F>2623</F>
+        <F>4541</F>
+        <F>2623</F>
+        <F>Feuillus indéterminés / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="238">
+        <F>238</F>
+        <F>2625</F>
+        <F>738</F>
+        <F>2625</F>
+        <F>Feuillus indéterminés associés à du mélèze laricin / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="239">
+        <F>239</F>
+        <F>2628</F>
+        <F>436</F>
+        <F>2628</F>
+        <F>Feuillus indéterminés associés à des sapin baumier et/ou épinette blanche / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="240">
+        <F>240</F>
+        <F>2630</F>
+        <F>276</F>
+        <F>2630</F>
+        <F>Hêtre à grandes feuilles / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="241">
+        <F>241</F>
+        <F>2633</F>
+        <F>6</F>
+        <F>2633</F>
+        <F>Hêtre à grandes feuilles associé à des résineux / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="242">
+        <F>242</F>
+        <F>2634</F>
+        <F>52435</F>
+        <F>2634</F>
+        <F>Mélèze laricin / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="243">
+        <F>243</F>
+        <F>2635</F>
+        <F>3569</F>
+        <F>2635</F>
+        <F>Mélèze laricin associé à des feuillus intolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="244">
+        <F>244</F>
+        <F>2636</F>
+        <F>1888</F>
+        <F>2636</F>
+        <F>Mélèze laricin associé à des feuillus tolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="245">
+        <F>245</F>
+        <F>2637</F>
+        <F>1513</F>
+        <F>2637</F>
+        <F>Mélèze laricin associé à des feuillus indéterminés / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="246">
+        <F>246</F>
+        <F>2651</F>
+        <F>911</F>
+        <F>2651</F>
+        <F>Pin blanc / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="247">
+        <F>247</F>
+        <F>2653</F>
+        <F>355</F>
+        <F>2653</F>
+        <F>Pin blanc associé à des érables / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="248">
+        <F>248</F>
+        <F>2654</F>
+        <F>396</F>
+        <F>2654</F>
+        <F>Pin blanc associé à des feuillus intolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="249">
+        <F>249</F>
+        <F>2655</F>
+        <F>121</F>
+        <F>2655</F>
+        <F>Pin blanc associé à des feuillus tolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="250">
+        <F>250</F>
+        <F>2658</F>
+        <F>1566</F>
+        <F>2658</F>
+        <F>Peupliers / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="251">
+        <F>251</F>
+        <F>2659</F>
+        <F>37</F>
+        <F>2659</F>
+        <F>Peupliers associés à des épinettes noire ou rouge / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="252">
+        <F>252</F>
+        <F>2660</F>
+        <F>5</F>
+        <F>2660</F>
+        <F>Peupliers associés à des pins / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="253">
+        <F>253</F>
+        <F>2661</F>
+        <F>46</F>
+        <F>2661</F>
+        <F>Peupliers associés à des résineux tolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="254">
+        <F>254</F>
+        <F>2663</F>
+        <F>1656</F>
+        <F>2663</F>
+        <F>Peupliers associés à des sapin baumier et/ou épinette blanche / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="255">
+        <F>255</F>
+        <F>2664</F>
+        <F>881</F>
+        <F>2664</F>
+        <F>Pin gris / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="256">
+        <F>256</F>
+        <F>2668</F>
+        <F>2</F>
+        <F>2668</F>
+        <F>Pins / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="257">
+        <F>257</F>
+        <F>2669</F>
+        <F>11</F>
+        <F>2669</F>
+        <F>Pins associés à des feuillus intolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="258">
+        <F>258</F>
+        <F>2672</F>
+        <F>1</F>
+        <F>2672</F>
+        <F>Pin rouge / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="259">
+        <F>259</F>
+        <F>2687</F>
+        <F>22</F>
+        <F>2687</F>
+        <F>Pruche du Canada / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="260">
+        <F>260</F>
+        <F>2691</F>
+        <F>224</F>
+        <F>2691</F>
+        <F>Pruche du Canada associée à des feuillus tolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="261">
+        <F>261</F>
+        <F>2692</F>
+        <F>979</F>
+        <F>2692</F>
+        <F>Pruche du Canada associée à des feuillus indéterminés / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="262">
+        <F>262</F>
+        <F>2693</F>
+        <F>1279</F>
+        <F>2693</F>
+        <F>Résineux / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="263">
+        <F>263</F>
+        <F>2696</F>
+        <F>805</F>
+        <F>2696</F>
+        <F>Résineux associés à des feuillus intolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="264">
+        <F>264</F>
+        <F>2699</F>
+        <F>7971</F>
+        <F>2699</F>
+        <F>Sapin baumier / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="265">
+        <F>265</F>
+        <F>2700</F>
+        <F>581</F>
+        <F>2700</F>
+        <F>Sapin baumier associé à du bouleau jaune / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="266">
+        <F>266</F>
+        <F>2701</F>
+        <F>1392</F>
+        <F>2701</F>
+        <F>Sapin baumier associé à des épinettes noire ou rouge / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="267">
+        <F>267</F>
+        <F>2702</F>
+        <F>8488</F>
+        <F>2702</F>
+        <F>Sapin baumier associé à des érables / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="268">
+        <F>268</F>
+        <F>2703</F>
+        <F>3117</F>
+        <F>2703</F>
+        <F>Sapin baumier associé à des feuillus intolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="269">
+        <F>269</F>
+        <F>2704</F>
+        <F>609</F>
+        <F>2704</F>
+        <F>Sapin baumier associé à des feuillus tolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="270">
+        <F>270</F>
+        <F>2705</F>
+        <F>2709</F>
+        <F>2705</F>
+        <F>Sapin baumier associé à des feuillus indéterminés / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="271">
+        <F>271</F>
+        <F>2706</F>
+        <F>1143</F>
+        <F>2706</F>
+        <F>Sapin baumier associé à du thuyas occidental / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="272">
+        <F>272</F>
+        <F>2707</F>
+        <F>417</F>
+        <F>2707</F>
+        <F>Sapin baumier et/ou épinette blanche / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="273">
+        <F>273</F>
+        <F>2719</F>
+        <F>829</F>
+        <F>2719</F>
+        <F>Sapin baumier et épinette noire associés à des feuillus indéterminés / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="274">
+        <F>274</F>
+        <F>2724</F>
+        <F>3492</F>
+        <F>2724</F>
+        <F>Thuyas occidental / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="275">
+        <F>275</F>
+        <F>2726</F>
+        <F>319</F>
+        <F>2726</F>
+        <F>Thuyas occidental associé à des érables / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="276">
+        <F>276</F>
+        <F>2727</F>
+        <F>500</F>
+        <F>2727</F>
+        <F>Thuyas occidental associé à des feuillus intolérants / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="277">
+        <F>277</F>
+        <F>2731</F>
+        <F>306</F>
+        <F>2731</F>
+        <F>Peuplement issu d'une plantation mélangée indigène / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="278">
+        <F>278</F>
+        <F>2732</F>
+        <F>1563</F>
+        <F>2732</F>
+        <F>Peuplement issu d'une plantation de résineux indigènes / Tourbière</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="279">
+        <F>279</F>
+        <F>4021</F>
+        <F>801</F>
+        <F>4021</F>
+        <F>Lac / Marécage</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="280">
+        <F>280</F>
+        <F>4022</F>
+        <F>13</F>
+        <F>4022</F>
+        <F>Mare et/ou eau peu profonde / Marécage</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="281">
+        <F>281</F>
+        <F>4023</F>
+        <F>148</F>
+        <F>4023</F>
+        <F>Réservoir / Marécage</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="282">
+        <F>282</F>
+        <F>4051</F>
+        <F>6839</F>
+        <F>4051</F>
+        <F>Aulnaie / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="283">
+        <F>283</F>
+        <F>4055</F>
+        <F>4350</F>
+        <F>4055</F>
+        <F>Friche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="284">
+        <F>284</F>
+        <F>4120</F>
+        <F>548</F>
+        <F>4120</F>
+        <F>Agriculture indifférenciée / Marécage</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="285">
+        <F>285</F>
+        <F>4122</F>
+        <F>4426</F>
+        <F>4122</F>
+        <F>Culture pérenne et pâturage / Marécage</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="286">
+        <F>286</F>
+        <F>4133</F>
+        <F>7</F>
+        <F>4133</F>
+        <F>Orge / Marécage</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="287">
+        <F>287</F>
+        <F>4136</F>
+        <F>107</F>
+        <F>4136</F>
+        <F>Avoine / Marécage</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="288">
+        <F>288</F>
+        <F>4137</F>
+        <F>13</F>
+        <F>4137</F>
+        <F>Seigle / Marécage</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="289">
+        <F>289</F>
+        <F>4140</F>
+        <F>425</F>
+        <F>4140</F>
+        <F>Blé / Marécage</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="290">
+        <F>290</F>
+        <F>4147</F>
+        <F>1208</F>
+        <F>4147</F>
+        <F>Maïs / Marécage</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="291">
+        <F>291</F>
+        <F>4158</F>
+        <F>969</F>
+        <F>4158</F>
+        <F>Soya / Marécage</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="292">
+        <F>292</F>
+        <F>4175</F>
+        <F>15</F>
+        <F>4175</F>
+        <F>Autre légume / Marécage</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="293">
+        <F>293</F>
+        <F>4177</F>
+        <F>341</F>
+        <F>4177</F>
+        <F>Pomme de terre / Marécage</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="294">
+        <F>294</F>
+        <F>4230</F>
+        <F>4225</F>
+        <F>4230</F>
+        <F>Forêt mixte / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="295">
+        <F>295</F>
+        <F>4253</F>
+        <F>4489</F>
+        <F>4253</F>
+        <F>Coupe forestière / Marécage</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="296">
+        <F>296</F>
+        <F>4255</F>
+        <F>232</F>
+        <F>4255</F>
+        <F>Plantation / Marécage</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="297">
+        <F>297</F>
+        <F>4256</F>
+        <F>21</F>
+        <F>4256</F>
+        <F>Plantation de feuillus indigènes / Marécage</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="298">
+        <F>298</F>
+        <F>4257</F>
+        <F>2286</F>
+        <F>4257</F>
+        <F>Plantation mélangée indigène / Marécage</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="299">
+        <F>299</F>
+        <F>4258</F>
+        <F>1286</F>
+        <F>4258</F>
+        <F>Plantation de résineux indigènes / Marécage</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="300">
+        <F>300</F>
+        <F>4280</F>
+        <F>188</F>
+        <F>4280</F>
+        <F>Perturbation naturelle / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="301">
+        <F>301</F>
+        <F>4300</F>
+        <F>707</F>
+        <F>4300</F>
+        <F>Autre terrain / Marécage</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="302">
+        <F>302</F>
+        <F>4301</F>
+        <F>1893</F>
+        <F>4301</F>
+        <F>Zone développée / Marécage</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="303">
+        <F>303</F>
+        <F>4320</F>
+        <F>423</F>
+        <F>4320</F>
+        <F>Route ou chemin / Marécage</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="304">
+        <F>304</F>
+        <F>4321</F>
+        <F>20</F>
+        <F>4321</F>
+        <F>Aéroport / Marécage</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="305">
+        <F>305</F>
+        <F>4322</F>
+        <F>41</F>
+        <F>4322</F>
+        <F>Chemin de fer / Marécage</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="306">
+        <F>306</F>
+        <F>4341</F>
+        <F>879</F>
+        <F>4341</F>
+        <F>Carrière ou gravière / Marécage</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="307">
+        <F>307</F>
+        <F>4351</F>
+        <F>2727</F>
+        <F>4351</F>
+        <F>Ligne de transmission ou de transport d'énergie / Marécage</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="308">
+        <F>308</F>
+        <F>4501</F>
+        <F>6759</F>
+        <F>4501</F>
+        <F>Bouleau gris / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="309">
+        <F>309</F>
+        <F>4503</F>
+        <F>1793</F>
+        <F>4503</F>
+        <F>Bouleau gris associé à des résineux tolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="310">
+        <F>310</F>
+        <F>4505</F>
+        <F>1426</F>
+        <F>4505</F>
+        <F>Bouleau jaune / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="311">
+        <F>311</F>
+        <F>4509</F>
+        <F>42</F>
+        <F>4509</F>
+        <F>Bouleau jaune associé à de la pruche du Canada / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="312">
+        <F>312</F>
+        <F>4511</F>
+        <F>70</F>
+        <F>4511</F>
+        <F>Bouleau jaune associé à des sapin baumier et/ou épinette blanche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="313">
+        <F>313</F>
+        <F>4514</F>
+        <F>1695</F>
+        <F>4514</F>
+        <F>Bouleau blanc / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="314">
+        <F>314</F>
+        <F>4519</F>
+        <F>1060</F>
+        <F>4519</F>
+        <F>Bouleau blanc associé à des sapin baumier et/ou épinette blanche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="315">
+        <F>315</F>
+        <F>4521</F>
+        <F>48</F>
+        <F>4521</F>
+        <F>Chênes / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="316">
+        <F>316</F>
+        <F>4529</F>
+        <F>5556</F>
+        <F>4529</F>
+        <F>Érable argenté / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="317">
+        <F>317</F>
+        <F>4533</F>
+        <F>385</F>
+        <F>4533</F>
+        <F>Épinette blanche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="318">
+        <F>318</F>
+        <F>4534</F>
+        <F>23</F>
+        <F>4534</F>
+        <F>Épinette blanche associée à des feuillus intolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="319">
+        <F>319</F>
+        <F>4536</F>
+        <F>144</F>
+        <F>4536</F>
+        <F>Épinette blanche associée à des feuillus indéterminés / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="320">
+        <F>320</F>
+        <F>4538</F>
+        <F>745</F>
+        <F>4538</F>
+        <F>Épinette noire / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="321">
+        <F>321</F>
+        <F>4543</F>
+        <F>1250</F>
+        <F>4543</F>
+        <F>Épinette noire associée à du mélèze laricin / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="322">
+        <F>322</F>
+        <F>4545</F>
+        <F>120</F>
+        <F>4545</F>
+        <F>Épinette noire associée à du sapin baumier / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="323">
+        <F>323</F>
+        <F>4547</F>
+        <F>27362</F>
+        <F>4547</F>
+        <F>Érable rouge / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="324">
+        <F>324</F>
+        <F>4548</F>
+        <F>465</F>
+        <F>4548</F>
+        <F>Érable rouge associé à des épinettes noire ou rouge / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="325">
+        <F>325</F>
+        <F>4549</F>
+        <F>298</F>
+        <F>4549</F>
+        <F>Érable rouge associé à du mélèze laricin / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="326">
+        <F>326</F>
+        <F>4550</F>
+        <F>1123</F>
+        <F>4550</F>
+        <F>Érable rouge associé à des pins / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="327">
+        <F>327</F>
+        <F>4551</F>
+        <F>713</F>
+        <F>4551</F>
+        <F>Érable rouge associé à de la pruche du Canada / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="328">
+        <F>328</F>
+        <F>4552</F>
+        <F>2707</F>
+        <F>4552</F>
+        <F>Érable rouge associé à des résineux / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="329">
+        <F>329</F>
+        <F>4553</F>
+        <F>7434</F>
+        <F>4553</F>
+        <F>Érable rouge associé à des sapin baumier et/ou épinette blanche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="330">
+        <F>330</F>
+        <F>4554</F>
+        <F>21</F>
+        <F>4554</F>
+        <F>Érable rouge associé à du thuyas occidental / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="331">
+        <F>331</F>
+        <F>4565</F>
+        <F>3323</F>
+        <F>4565</F>
+        <F>Érables / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="332">
+        <F>332</F>
+        <F>4566</F>
+        <F>388</F>
+        <F>4566</F>
+        <F>Érables associés à du bouleau jaune / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="333">
+        <F>333</F>
+        <F>4569</F>
+        <F>84</F>
+        <F>4569</F>
+        <F>Érables associés à des pins / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="334">
+        <F>334</F>
+        <F>4570</F>
+        <F>401</F>
+        <F>4570</F>
+        <F>Érables associés à de la pruche du Canada / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="335">
+        <F>335</F>
+        <F>4571</F>
+        <F>346</F>
+        <F>4571</F>
+        <F>Érables associés à des résineux / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="336">
+        <F>336</F>
+        <F>4572</F>
+        <F>368</F>
+        <F>4572</F>
+        <F>Érables associés à des sapin baumier et/ou épinette blanche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="337">
+        <F>337</F>
+        <F>4574</F>
+        <F>764</F>
+        <F>4574</F>
+        <F>Érable à sucre / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="338">
+        <F>338</F>
+        <F>4579</F>
+        <F>74</F>
+        <F>4579</F>
+        <F>Érable à sucre associé à de la pruche du Canada / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="339">
+        <F>339</F>
+        <F>4583</F>
+        <F>800</F>
+        <F>4583</F>
+        <F>Épinette rouge / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="340">
+        <F>340</F>
+        <F>4585</F>
+        <F>941</F>
+        <F>4585</F>
+        <F>Épinette rouge associée à des feuillus intolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="341">
+        <F>341</F>
+        <F>4586</F>
+        <F>865</F>
+        <F>4586</F>
+        <F>Épinette rouge associée à des feuillus tolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="342">
+        <F>342</F>
+        <F>4587</F>
+        <F>2185</F>
+        <F>4587</F>
+        <F>Épinette rouge associée à des feuillus indéterminés / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="343">
+        <F>343</F>
+        <F>4588</F>
+        <F>65</F>
+        <F>4588</F>
+        <F>Épinette rouge associée à du mélèze laricin / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="344">
+        <F>344</F>
+        <F>4590</F>
+        <F>1098</F>
+        <F>4590</F>
+        <F>Épinette rouge associée à des sapin baumier et/ou épinette blanche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="345">
+        <F>345</F>
+        <F>4595</F>
+        <F>7905</F>
+        <F>4595</F>
+        <F>Feuillus intolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="346">
+        <F>346</F>
+        <F>4598</F>
+        <F>167</F>
+        <F>4598</F>
+        <F>Feuillus intolérants associés à des pins / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="347">
+        <F>347</F>
+        <F>4599</F>
+        <F>103</F>
+        <F>4599</F>
+        <F>Feuillus intolérants associés à de la pruche du Canada / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="348">
+        <F>348</F>
+        <F>4600</F>
+        <F>510</F>
+        <F>4600</F>
+        <F>Feuillus intolérants associés à des résineux / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="349">
+        <F>349</F>
+        <F>4601</F>
+        <F>1891</F>
+        <F>4601</F>
+        <F>Feuillus intolérants associés à des sapin baumier et/ou épinette blanche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="350">
+        <F>350</F>
+        <F>4603</F>
+        <F>1470</F>
+        <F>4603</F>
+        <F>Frêne noir / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="351">
+        <F>351</F>
+        <F>4615</F>
+        <F>2652</F>
+        <F>4615</F>
+        <F>Feuillus tolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="352">
+        <F>352</F>
+        <F>4616</F>
+        <F>7</F>
+        <F>4616</F>
+        <F>Feuillus tolérants associés à des épinettes noire ou rouge / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="353">
+        <F>353</F>
+        <F>4618</F>
+        <F>149</F>
+        <F>4618</F>
+        <F>Feuillus tolérants associés à des pins / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="354">
+        <F>354</F>
+        <F>4619</F>
+        <F>398</F>
+        <F>4619</F>
+        <F>Feuillus tolérants associés à de la pruche du Canada / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="355">
+        <F>355</F>
+        <F>4620</F>
+        <F>259</F>
+        <F>4620</F>
+        <F>Feuillus tolérants associés à des résineux / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="356">
+        <F>356</F>
+        <F>4621</F>
+        <F>1679</F>
+        <F>4621</F>
+        <F>Feuillus tolérants associés à des sapin baumier et/ou épinette blanche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="357">
+        <F>357</F>
+        <F>4623</F>
+        <F>9242</F>
+        <F>4623</F>
+        <F>Feuillus indéterminés / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="358">
+        <F>358</F>
+        <F>4628</F>
+        <F>817</F>
+        <F>4628</F>
+        <F>Feuillus indéterminés associés à des sapin baumier et/ou épinette blanche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="359">
+        <F>359</F>
+        <F>4630</F>
+        <F>674</F>
+        <F>4630</F>
+        <F>Hêtre à grandes feuilles / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="360">
+        <F>360</F>
+        <F>4633</F>
+        <F>84</F>
+        <F>4633</F>
+        <F>Hêtre à grandes feuilles associé à des résineux / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="361">
+        <F>361</F>
+        <F>4634</F>
+        <F>2018</F>
+        <F>4634</F>
+        <F>Mélèze laricin / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="362">
+        <F>362</F>
+        <F>4635</F>
+        <F>296</F>
+        <F>4635</F>
+        <F>Mélèze laricin associé à des feuillus intolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="363">
+        <F>363</F>
+        <F>4636</F>
+        <F>47</F>
+        <F>4636</F>
+        <F>Mélèze laricin associé à des feuillus tolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="364">
+        <F>364</F>
+        <F>4637</F>
+        <F>2145</F>
+        <F>4637</F>
+        <F>Mélèze laricin associé à des feuillus indéterminés / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="365">
+        <F>365</F>
+        <F>4651</F>
+        <F>803</F>
+        <F>4651</F>
+        <F>Pin blanc / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="366">
+        <F>366</F>
+        <F>4653</F>
+        <F>928</F>
+        <F>4653</F>
+        <F>Pin blanc associé à des érables / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="367">
+        <F>367</F>
+        <F>4654</F>
+        <F>156</F>
+        <F>4654</F>
+        <F>Pin blanc associé à des feuillus intolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="368">
+        <F>368</F>
+        <F>4655</F>
+        <F>71</F>
+        <F>4655</F>
+        <F>Pin blanc associé à des feuillus tolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="369">
+        <F>369</F>
+        <F>4656</F>
+        <F>2</F>
+        <F>4656</F>
+        <F>Pin blanc associé à des feuillus indéterminés / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="370">
+        <F>370</F>
+        <F>4658</F>
+        <F>10714</F>
+        <F>4658</F>
+        <F>Peupliers / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="371">
+        <F>371</F>
+        <F>4660</F>
+        <F>60</F>
+        <F>4660</F>
+        <F>Peupliers associés à des pins / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="372">
+        <F>372</F>
+        <F>4661</F>
+        <F>356</F>
+        <F>4661</F>
+        <F>Peupliers associés à des résineux tolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="373">
+        <F>373</F>
+        <F>4663</F>
+        <F>996</F>
+        <F>4663</F>
+        <F>Peupliers associés à des sapin baumier et/ou épinette blanche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="374">
+        <F>374</F>
+        <F>4664</F>
+        <F>19</F>
+        <F>4664</F>
+        <F>Pin gris / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="375">
+        <F>375</F>
+        <F>4668</F>
+        <F>252</F>
+        <F>4668</F>
+        <F>Pins / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="376">
+        <F>376</F>
+        <F>4669</F>
+        <F>108</F>
+        <F>4669</F>
+        <F>Pins associés à des feuillus intolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="377">
+        <F>377</F>
+        <F>4670</F>
+        <F>94</F>
+        <F>4670</F>
+        <F>Pins associés à des feuillus tolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="378">
+        <F>378</F>
+        <F>4687</F>
+        <F>492</F>
+        <F>4687</F>
+        <F>Pruche du Canada / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="379">
+        <F>379</F>
+        <F>4688</F>
+        <F>191</F>
+        <F>4688</F>
+        <F>Pruche du Canada associée à du bouleau jaune / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="380">
+        <F>380</F>
+        <F>4689</F>
+        <F>337</F>
+        <F>4689</F>
+        <F>Pruche du Canada associée à des érables / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="381">
+        <F>381</F>
+        <F>4690</F>
+        <F>174</F>
+        <F>4690</F>
+        <F>Pruche du Canada associée à des feuillus intolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="382">
+        <F>382</F>
+        <F>4691</F>
+        <F>453</F>
+        <F>4691</F>
+        <F>Pruche du Canada associée à des feuillus tolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="383">
+        <F>383</F>
+        <F>4692</F>
+        <F>199</F>
+        <F>4692</F>
+        <F>Pruche du Canada associée à des feuillus indéterminés / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="384">
+        <F>384</F>
+        <F>4693</F>
+        <F>662</F>
+        <F>4693</F>
+        <F>Résineux / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="385">
+        <F>385</F>
+        <F>4696</F>
+        <F>643</F>
+        <F>4696</F>
+        <F>Résineux associés à des feuillus intolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="386">
+        <F>386</F>
+        <F>4699</F>
+        <F>3725</F>
+        <F>4699</F>
+        <F>Sapin baumier / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="387">
+        <F>387</F>
+        <F>4701</F>
+        <F>1316</F>
+        <F>4701</F>
+        <F>Sapin baumier associé à des épinettes noire ou rouge / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="388">
+        <F>388</F>
+        <F>4702</F>
+        <F>8434</F>
+        <F>4702</F>
+        <F>Sapin baumier associé à des érables / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="389">
+        <F>389</F>
+        <F>4703</F>
+        <F>5881</F>
+        <F>4703</F>
+        <F>Sapin baumier associé à des feuillus intolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="390">
+        <F>390</F>
+        <F>4704</F>
+        <F>471</F>
+        <F>4704</F>
+        <F>Sapin baumier associé à des feuillus tolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="391">
+        <F>391</F>
+        <F>4705</F>
+        <F>4926</F>
+        <F>4705</F>
+        <F>Sapin baumier associé à des feuillus indéterminés / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="392">
+        <F>392</F>
+        <F>4706</F>
+        <F>2815</F>
+        <F>4706</F>
+        <F>Sapin baumier associé à du thuyas occidental / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="393">
+        <F>393</F>
+        <F>4707</F>
+        <F>12</F>
+        <F>4707</F>
+        <F>Sapin baumier et/ou épinette blanche / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="394">
+        <F>394</F>
+        <F>4712</F>
+        <F>35</F>
+        <F>4712</F>
+        <F>Sapin baumier et/ou épinette blanche associés à des feuillus intolérants / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="395">
+        <F>395</F>
+        <F>4719</F>
+        <F>1017</F>
+        <F>4719</F>
+        <F>Sapin baumier et épinette noire associés à des feuillus indéterminés / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="396">
+        <F>396</F>
+        <F>4724</F>
+        <F>516</F>
+        <F>4724</F>
+        <F>Thuyas occidental / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="397">
+        <F>397</F>
+        <F>4726</F>
+        <F>134</F>
+        <F>4726</F>
+        <F>Thuyas occidental associé à des érables / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="398">
+        <F>398</F>
+        <F>4729</F>
+        <F>65</F>
+        <F>4729</F>
+        <F>Thuyas occidental associé à des feuillus indéterminés / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="399">
+        <F>399</F>
+        <F>4730</F>
+        <F>1</F>
+        <F>4730</F>
+        <F>Peuplement issu d'une plantation de feuillus indigènes / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="400">
+        <F>400</F>
+        <F>4731</F>
+        <F>1907</F>
+        <F>4731</F>
+        <F>Peuplement issu d'une plantation mélangée indigène / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="401">
+        <F>401</F>
+        <F>4732</F>
+        <F>3317</F>
+        <F>4732</F>
+        <F>Peuplement issu d'une plantation de résineux indigènes / Marécage</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="402">
+        <F>402</F>
+        <F>5000</F>
+        <F>13370</F>
+        <F>5000</F>
+        <F>Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="403">
+        <F>403</F>
+        <F>5021</F>
+        <F>3636</F>
+        <F>5021</F>
+        <F>Lac / Marais</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="404">
+        <F>404</F>
+        <F>5022</F>
+        <F>54</F>
+        <F>5022</F>
+        <F>Mare et/ou eau peu profonde / Marais</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="405">
+        <F>405</F>
+        <F>5023</F>
+        <F>50</F>
+        <F>5023</F>
+        <F>Réservoir / Marais</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="406">
+        <F>406</F>
+        <F>5030</F>
+        <F>1</F>
+        <F>5030</F>
+        <F>Sol nu, roc-sol à nu, sol dénudé ou semi-dénudé sec / Marais</F>
+        <F>7</F>
+        <F>Sol nu et lande</F>
+      </Row>
+      <Row index="407">
+        <F>407</F>
+        <F>5051</F>
+        <F>69</F>
+        <F>5051</F>
+        <F>Aulnaie / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="408">
+        <F>408</F>
+        <F>5055</F>
+        <F>896</F>
+        <F>5055</F>
+        <F>Friche / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="409">
+        <F>409</F>
+        <F>5120</F>
+        <F>13</F>
+        <F>5120</F>
+        <F>Agriculture indifférenciée / Marais</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="410">
+        <F>410</F>
+        <F>5122</F>
+        <F>898</F>
+        <F>5122</F>
+        <F>Culture pérenne et pâturage / Marais</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="411">
+        <F>411</F>
+        <F>5136</F>
+        <F>6</F>
+        <F>5136</F>
+        <F>Avoine / Marais</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="412">
+        <F>412</F>
+        <F>5137</F>
+        <F>1</F>
+        <F>5137</F>
+        <F>Seigle / Marais</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="413">
+        <F>413</F>
+        <F>5140</F>
+        <F>35</F>
+        <F>5140</F>
+        <F>Blé / Marais</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="414">
+        <F>414</F>
+        <F>5147</F>
+        <F>182</F>
+        <F>5147</F>
+        <F>Maïs / Marais</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="415">
+        <F>415</F>
+        <F>5158</F>
+        <F>10</F>
+        <F>5158</F>
+        <F>Soya / Marais</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="416">
+        <F>416</F>
+        <F>5177</F>
+        <F>15</F>
+        <F>5177</F>
+        <F>Pomme de terre / Marais</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="417">
+        <F>417</F>
+        <F>5253</F>
+        <F>124</F>
+        <F>5253</F>
+        <F>Coupe forestière / Marais</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="418">
+        <F>418</F>
+        <F>5257</F>
+        <F>9</F>
+        <F>5257</F>
+        <F>Plantation mélangée indigène / Marais</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="419">
+        <F>419</F>
+        <F>5258</F>
+        <F>81</F>
+        <F>5258</F>
+        <F>Plantation de résineux indigènes / Marais</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="420">
+        <F>420</F>
+        <F>5301</F>
+        <F>531</F>
+        <F>5301</F>
+        <F>Zone développée / Marais</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="421">
+        <F>421</F>
+        <F>5320</F>
+        <F>51</F>
+        <F>5320</F>
+        <F>Route ou chemin / Marais</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="422">
+        <F>422</F>
+        <F>5322</F>
+        <F>10</F>
+        <F>5322</F>
+        <F>Chemin de fer / Marais</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="423">
+        <F>423</F>
+        <F>5341</F>
+        <F>162</F>
+        <F>5341</F>
+        <F>Carrière ou gravière / Marais</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="424">
+        <F>424</F>
+        <F>5351</F>
+        <F>507</F>
+        <F>5351</F>
+        <F>Ligne de transmission ou de transport d'énergie / Marais</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="425">
+        <F>425</F>
+        <F>5501</F>
+        <F>7</F>
+        <F>5501</F>
+        <F>Bouleau gris / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="426">
+        <F>426</F>
+        <F>5502</F>
+        <F>1</F>
+        <F>5502</F>
+        <F>Bouleau gris associé à des pins / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="427">
+        <F>427</F>
+        <F>5505</F>
+        <F>22</F>
+        <F>5505</F>
+        <F>Bouleau jaune / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="428">
+        <F>428</F>
+        <F>5509</F>
+        <F>1</F>
+        <F>5509</F>
+        <F>Bouleau jaune associé à de la pruche du Canada / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="429">
+        <F>429</F>
+        <F>5514</F>
+        <F>11</F>
+        <F>5514</F>
+        <F>Bouleau blanc / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="430">
+        <F>430</F>
+        <F>5519</F>
+        <F>5</F>
+        <F>5519</F>
+        <F>Bouleau blanc associé à des sapin baumier et/ou épinette blanche / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="431">
+        <F>431</F>
+        <F>5529</F>
+        <F>178</F>
+        <F>5529</F>
+        <F>Érable argenté / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="432">
+        <F>432</F>
+        <F>5536</F>
+        <F>37</F>
+        <F>5536</F>
+        <F>Épinette blanche associée à des feuillus indéterminés / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="433">
+        <F>433</F>
+        <F>5547</F>
+        <F>121</F>
+        <F>5547</F>
+        <F>Érable rouge / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="434">
+        <F>434</F>
+        <F>5548</F>
+        <F>30</F>
+        <F>5548</F>
+        <F>Érable rouge associé à des épinettes noire ou rouge / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="435">
+        <F>435</F>
+        <F>5553</F>
+        <F>5</F>
+        <F>5553</F>
+        <F>Érable rouge associé à des sapin baumier et/ou épinette blanche / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="436">
+        <F>436</F>
+        <F>5565</F>
+        <F>44</F>
+        <F>5565</F>
+        <F>Érables / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="437">
+        <F>437</F>
+        <F>5574</F>
+        <F>30</F>
+        <F>5574</F>
+        <F>Érable à sucre / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="438">
+        <F>438</F>
+        <F>5595</F>
+        <F>27</F>
+        <F>5595</F>
+        <F>Feuillus intolérants / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="439">
+        <F>439</F>
+        <F>5601</F>
+        <F>11</F>
+        <F>5601</F>
+        <F>Feuillus intolérants associés à des sapin baumier et/ou épinette blanche / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="440">
+        <F>440</F>
+        <F>5603</F>
+        <F>2</F>
+        <F>5603</F>
+        <F>Frêne noir / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="441">
+        <F>441</F>
+        <F>5615</F>
+        <F>8</F>
+        <F>5615</F>
+        <F>Feuillus tolérants / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="442">
+        <F>442</F>
+        <F>5618</F>
+        <F>11</F>
+        <F>5618</F>
+        <F>Feuillus tolérants associés à des pins / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="443">
+        <F>443</F>
+        <F>5623</F>
+        <F>53</F>
+        <F>5623</F>
+        <F>Feuillus indéterminés / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="444">
+        <F>444</F>
+        <F>5628</F>
+        <F>5</F>
+        <F>5628</F>
+        <F>Feuillus indéterminés associés à des sapin baumier et/ou épinette blanche / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="445">
+        <F>445</F>
+        <F>5651</F>
+        <F>9</F>
+        <F>5651</F>
+        <F>Pin blanc / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="446">
+        <F>446</F>
+        <F>5653</F>
+        <F>12</F>
+        <F>5653</F>
+        <F>Pin blanc associé à des érables / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="447">
+        <F>447</F>
+        <F>5658</F>
+        <F>125</F>
+        <F>5658</F>
+        <F>Peupliers / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="448">
+        <F>448</F>
+        <F>5663</F>
+        <F>49</F>
+        <F>5663</F>
+        <F>Peupliers associés à des sapin baumier et/ou épinette blanche / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="449">
+        <F>449</F>
+        <F>5669</F>
+        <F>21</F>
+        <F>5669</F>
+        <F>Pins associés à des feuillus intolérants / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="450">
+        <F>450</F>
+        <F>5676</F>
+        <F>39</F>
+        <F>5676</F>
+        <F>Pin rouge associé à des feuillus intolérants / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="451">
+        <F>451</F>
+        <F>5688</F>
+        <F>1</F>
+        <F>5688</F>
+        <F>Pruche du Canada associée à du bouleau jaune / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="452">
+        <F>452</F>
+        <F>5702</F>
+        <F>11</F>
+        <F>5702</F>
+        <F>Sapin baumier associé à des érables / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="453">
+        <F>453</F>
+        <F>5703</F>
+        <F>20</F>
+        <F>5703</F>
+        <F>Sapin baumier associé à des feuillus intolérants / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="454">
+        <F>454</F>
+        <F>5731</F>
+        <F>2</F>
+        <F>5731</F>
+        <F>Peuplement issu d'une plantation mélangée indigène / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="455">
+        <F>455</F>
+        <F>5732</F>
+        <F>1</F>
+        <F>5732</F>
+        <F>Peuplement issu d'une plantation de résineux indigènes / Marais</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="456">
+        <F>456</F>
+        <F>6021</F>
+        <F>694</F>
+        <F>6021</F>
+        <F>Lac / Tourbière minérotrophe</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="457">
+        <F>457</F>
+        <F>6030</F>
+        <F>1</F>
+        <F>6030</F>
+        <F>Sol nu, roc-sol à nu, sol dénudé ou semi-dénudé sec / Tourbière minérotrophe</F>
+        <F>7</F>
+        <F>Sol nu et lande</F>
+      </Row>
+      <Row index="458">
+        <F>458</F>
+        <F>6051</F>
+        <F>842</F>
+        <F>6051</F>
+        <F>Aulnaie / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="459">
+        <F>459</F>
+        <F>6055</F>
+        <F>189</F>
+        <F>6055</F>
+        <F>Friche / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="460">
+        <F>460</F>
+        <F>6120</F>
+        <F>2</F>
+        <F>6120</F>
+        <F>Agriculture indifférenciée / Tourbière minérotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="461">
+        <F>461</F>
+        <F>6122</F>
+        <F>695</F>
+        <F>6122</F>
+        <F>Culture pérenne et pâturage / Tourbière minérotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="462">
+        <F>462</F>
+        <F>6136</F>
+        <F>26</F>
+        <F>6136</F>
+        <F>Avoine / Tourbière minérotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="463">
+        <F>463</F>
+        <F>6137</F>
+        <F>59</F>
+        <F>6137</F>
+        <F>Seigle / Tourbière minérotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="464">
+        <F>464</F>
+        <F>6147</F>
+        <F>141</F>
+        <F>6147</F>
+        <F>Maïs / Tourbière minérotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="465">
+        <F>465</F>
+        <F>6158</F>
+        <F>75</F>
+        <F>6158</F>
+        <F>Soya / Tourbière minérotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="466">
+        <F>466</F>
+        <F>6175</F>
+        <F>18</F>
+        <F>6175</F>
+        <F>Autre légume / Tourbière minérotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="467">
+        <F>467</F>
+        <F>6177</F>
+        <F>183</F>
+        <F>6177</F>
+        <F>Pomme de terre / Tourbière minérotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="468">
+        <F>468</F>
+        <F>6182</F>
+        <F>1</F>
+        <F>6182</F>
+        <F>Canneberge / Tourbière minérotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="469">
+        <F>469</F>
+        <F>6230</F>
+        <F>482</F>
+        <F>6230</F>
+        <F>Forêt mixte / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="470">
+        <F>470</F>
+        <F>6253</F>
+        <F>1367</F>
+        <F>6253</F>
+        <F>Coupe forestière / Tourbière minérotrophe</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="471">
+        <F>471</F>
+        <F>6255</F>
+        <F>35</F>
+        <F>6255</F>
+        <F>Plantation / Tourbière minérotrophe</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="472">
+        <F>472</F>
+        <F>6257</F>
+        <F>55</F>
+        <F>6257</F>
+        <F>Plantation mélangée indigène / Tourbière minérotrophe</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="473">
+        <F>473</F>
+        <F>6258</F>
+        <F>565</F>
+        <F>6258</F>
+        <F>Plantation de résineux indigènes / Tourbière minérotrophe</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="474">
+        <F>474</F>
+        <F>6263</F>
+        <F>158</F>
+        <F>6263</F>
+        <F>Brûlis / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="475">
+        <F>475</F>
+        <F>6280</F>
+        <F>325</F>
+        <F>6280</F>
+        <F>Perturbation naturelle / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="476">
+        <F>476</F>
+        <F>6301</F>
+        <F>144</F>
+        <F>6301</F>
+        <F>Zone développée / Tourbière minérotrophe</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="477">
+        <F>477</F>
+        <F>6320</F>
+        <F>238</F>
+        <F>6320</F>
+        <F>Route ou chemin / Tourbière minérotrophe</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="478">
+        <F>478</F>
+        <F>6351</F>
+        <F>1282</F>
+        <F>6351</F>
+        <F>Ligne de transmission ou de transport d'énergie / Tourbière minérotrophe</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="479">
+        <F>479</F>
+        <F>6501</F>
+        <F>657</F>
+        <F>6501</F>
+        <F>Bouleau gris / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="480">
+        <F>480</F>
+        <F>6503</F>
+        <F>254</F>
+        <F>6503</F>
+        <F>Bouleau gris associé à des résineux tolérants / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="481">
+        <F>481</F>
+        <F>6511</F>
+        <F>242</F>
+        <F>6511</F>
+        <F>Bouleau jaune associé à des sapin baumier et/ou épinette blanche / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="482">
+        <F>482</F>
+        <F>6514</F>
+        <F>161</F>
+        <F>6514</F>
+        <F>Bouleau blanc / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="483">
+        <F>483</F>
+        <F>6519</F>
+        <F>33</F>
+        <F>6519</F>
+        <F>Bouleau blanc associé à des sapin baumier et/ou épinette blanche / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="484">
+        <F>484</F>
+        <F>6538</F>
+        <F>126</F>
+        <F>6538</F>
+        <F>Épinette noire / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="485">
+        <F>485</F>
+        <F>6543</F>
+        <F>7</F>
+        <F>6543</F>
+        <F>Épinette noire associée à du mélèze laricin / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="486">
+        <F>486</F>
+        <F>6545</F>
+        <F>317</F>
+        <F>6545</F>
+        <F>Épinette noire associée à du sapin baumier / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="487">
+        <F>487</F>
+        <F>6547</F>
+        <F>1045</F>
+        <F>6547</F>
+        <F>Érable rouge / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="488">
+        <F>488</F>
+        <F>6549</F>
+        <F>186</F>
+        <F>6549</F>
+        <F>Érable rouge associé à du mélèze laricin / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="489">
+        <F>489</F>
+        <F>6550</F>
+        <F>25</F>
+        <F>6550</F>
+        <F>Érable rouge associé à des pins / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="490">
+        <F>490</F>
+        <F>6551</F>
+        <F>4</F>
+        <F>6551</F>
+        <F>Érable rouge associé à de la pruche du Canada / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="491">
+        <F>491</F>
+        <F>6552</F>
+        <F>254</F>
+        <F>6552</F>
+        <F>Érable rouge associé à des résineux / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="492">
+        <F>492</F>
+        <F>6553</F>
+        <F>155</F>
+        <F>6553</F>
+        <F>Érable rouge associé à des sapin baumier et/ou épinette blanche / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="493">
+        <F>493</F>
+        <F>6554</F>
+        <F>40</F>
+        <F>6554</F>
+        <F>Érable rouge associé à du thuyas occidental / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="494">
+        <F>494</F>
+        <F>6565</F>
+        <F>93</F>
+        <F>6565</F>
+        <F>Érables / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="495">
+        <F>495</F>
+        <F>6583</F>
+        <F>75</F>
+        <F>6583</F>
+        <F>Épinette rouge / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="496">
+        <F>496</F>
+        <F>6585</F>
+        <F>121</F>
+        <F>6585</F>
+        <F>Épinette rouge associée à des feuillus intolérants / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="497">
+        <F>497</F>
+        <F>6586</F>
+        <F>23</F>
+        <F>6586</F>
+        <F>Épinette rouge associée à des feuillus tolérants / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="498">
+        <F>498</F>
+        <F>6590</F>
+        <F>6</F>
+        <F>6590</F>
+        <F>Épinette rouge associée à des sapin baumier et/ou épinette blanche / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="499">
+        <F>499</F>
+        <F>6595</F>
+        <F>485</F>
+        <F>6595</F>
+        <F>Feuillus intolérants / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="500">
+        <F>500</F>
+        <F>6600</F>
+        <F>3</F>
+        <F>6600</F>
+        <F>Feuillus intolérants associés à des résineux / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="501">
+        <F>501</F>
+        <F>6601</F>
+        <F>43</F>
+        <F>6601</F>
+        <F>Feuillus intolérants associés à des sapin baumier et/ou épinette blanche / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="502">
+        <F>502</F>
+        <F>6615</F>
+        <F>1</F>
+        <F>6615</F>
+        <F>Feuillus tolérants / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="503">
+        <F>503</F>
+        <F>6623</F>
+        <F>429</F>
+        <F>6623</F>
+        <F>Feuillus indéterminés / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="504">
+        <F>504</F>
+        <F>6625</F>
+        <F>248</F>
+        <F>6625</F>
+        <F>Feuillus indéterminés associés à du mélèze laricin / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="505">
+        <F>505</F>
+        <F>6630</F>
+        <F>51</F>
+        <F>6630</F>
+        <F>Hêtre à grandes feuilles / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="506">
+        <F>506</F>
+        <F>6634</F>
+        <F>750</F>
+        <F>6634</F>
+        <F>Mélèze laricin / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="507">
+        <F>507</F>
+        <F>6635</F>
+        <F>54</F>
+        <F>6635</F>
+        <F>Mélèze laricin associé à des feuillus intolérants / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="508">
+        <F>508</F>
+        <F>6636</F>
+        <F>52</F>
+        <F>6636</F>
+        <F>Mélèze laricin associé à des feuillus tolérants / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="509">
+        <F>509</F>
+        <F>6637</F>
+        <F>75</F>
+        <F>6637</F>
+        <F>Mélèze laricin associé à des feuillus indéterminés / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="510">
+        <F>510</F>
+        <F>6651</F>
+        <F>30</F>
+        <F>6651</F>
+        <F>Pin blanc / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="511">
+        <F>511</F>
+        <F>6653</F>
+        <F>86</F>
+        <F>6653</F>
+        <F>Pin blanc associé à des érables / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="512">
+        <F>512</F>
+        <F>6658</F>
+        <F>246</F>
+        <F>6658</F>
+        <F>Peupliers / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="513">
+        <F>513</F>
+        <F>6661</F>
+        <F>9</F>
+        <F>6661</F>
+        <F>Peupliers associés à des résineux tolérants / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="514">
+        <F>514</F>
+        <F>6663</F>
+        <F>60</F>
+        <F>6663</F>
+        <F>Peupliers associés à des sapin baumier et/ou épinette blanche / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="515">
+        <F>515</F>
+        <F>6693</F>
+        <F>86</F>
+        <F>6693</F>
+        <F>Résineux / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="516">
+        <F>516</F>
+        <F>6696</F>
+        <F>10</F>
+        <F>6696</F>
+        <F>Résineux associés à des feuillus intolérants / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="517">
+        <F>517</F>
+        <F>6699</F>
+        <F>110</F>
+        <F>6699</F>
+        <F>Sapin baumier / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="518">
+        <F>518</F>
+        <F>6700</F>
+        <F>133</F>
+        <F>6700</F>
+        <F>Sapin baumier associé à du bouleau jaune / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="519">
+        <F>519</F>
+        <F>6701</F>
+        <F>239</F>
+        <F>6701</F>
+        <F>Sapin baumier associé à des épinettes noire ou rouge / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="520">
+        <F>520</F>
+        <F>6702</F>
+        <F>492</F>
+        <F>6702</F>
+        <F>Sapin baumier associé à des érables / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="521">
+        <F>521</F>
+        <F>6703</F>
+        <F>147</F>
+        <F>6703</F>
+        <F>Sapin baumier associé à des feuillus intolérants / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="522">
+        <F>522</F>
+        <F>6705</F>
+        <F>316</F>
+        <F>6705</F>
+        <F>Sapin baumier associé à des feuillus indéterminés / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="523">
+        <F>523</F>
+        <F>6706</F>
+        <F>2</F>
+        <F>6706</F>
+        <F>Sapin baumier associé à du thuyas occidental / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="524">
+        <F>524</F>
+        <F>6707</F>
+        <F>16</F>
+        <F>6707</F>
+        <F>Sapin baumier et/ou épinette blanche / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="525">
+        <F>525</F>
+        <F>6714</F>
+        <F>5</F>
+        <F>6714</F>
+        <F>Sapin baumier et/ou épinette blanche associés à des feuillus indéterminés / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="526">
+        <F>526</F>
+        <F>6724</F>
+        <F>531</F>
+        <F>6724</F>
+        <F>Thuyas occidental / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="527">
+        <F>527</F>
+        <F>6726</F>
+        <F>859</F>
+        <F>6726</F>
+        <F>Thuyas occidental associé à des érables / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="528">
+        <F>528</F>
+        <F>6731</F>
+        <F>3</F>
+        <F>6731</F>
+        <F>Peuplement issu d'une plantation mélangée indigène / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="529">
+        <F>529</F>
+        <F>6732</F>
+        <F>35</F>
+        <F>6732</F>
+        <F>Peuplement issu d'une plantation de résineux indigènes / Tourbière minérotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="530">
+        <F>530</F>
+        <F>7021</F>
+        <F>928</F>
+        <F>7021</F>
+        <F>Lac / Prairie humide</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="531">
+        <F>531</F>
+        <F>7023</F>
+        <F>59</F>
+        <F>7023</F>
+        <F>Réservoir / Prairie humide</F>
+        <F>4</F>
+        <F>Aquatique</F>
+      </Row>
+      <Row index="532">
+        <F>532</F>
+        <F>7051</F>
+        <F>38</F>
+        <F>7051</F>
+        <F>Aulnaie / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="533">
+        <F>533</F>
+        <F>7055</F>
+        <F>2381</F>
+        <F>7055</F>
+        <F>Friche / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="534">
+        <F>534</F>
+        <F>7120</F>
+        <F>76</F>
+        <F>7120</F>
+        <F>Agriculture indifférenciée / Prairie humide</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="535">
+        <F>535</F>
+        <F>7122</F>
+        <F>2162</F>
+        <F>7122</F>
+        <F>Culture pérenne et pâturage / Prairie humide</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="536">
+        <F>536</F>
+        <F>7140</F>
+        <F>84</F>
+        <F>7140</F>
+        <F>Blé / Prairie humide</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="537">
+        <F>537</F>
+        <F>7147</F>
+        <F>102</F>
+        <F>7147</F>
+        <F>Maïs / Prairie humide</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="538">
+        <F>538</F>
+        <F>7158</F>
+        <F>616</F>
+        <F>7158</F>
+        <F>Soya / Prairie humide</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="539">
+        <F>539</F>
+        <F>7230</F>
+        <F>5</F>
+        <F>7230</F>
+        <F>Forêt mixte / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="540">
+        <F>540</F>
+        <F>7253</F>
+        <F>310</F>
+        <F>7253</F>
+        <F>Coupe forestière / Prairie humide</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="541">
+        <F>541</F>
+        <F>7255</F>
+        <F>24</F>
+        <F>7255</F>
+        <F>Plantation / Prairie humide</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="542">
+        <F>542</F>
+        <F>7258</F>
+        <F>227</F>
+        <F>7258</F>
+        <F>Plantation de résineux indigènes / Prairie humide</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="543">
+        <F>543</F>
+        <F>7300</F>
+        <F>17</F>
+        <F>7300</F>
+        <F>Autre terrain / Prairie humide</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="544">
+        <F>544</F>
+        <F>7301</F>
+        <F>566</F>
+        <F>7301</F>
+        <F>Zone développée / Prairie humide</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="545">
+        <F>545</F>
+        <F>7320</F>
+        <F>29</F>
+        <F>7320</F>
+        <F>Route ou chemin / Prairie humide</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="546">
+        <F>546</F>
+        <F>7341</F>
+        <F>128</F>
+        <F>7341</F>
+        <F>Carrière ou gravière / Prairie humide</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="547">
+        <F>547</F>
+        <F>7351</F>
+        <F>1227</F>
+        <F>7351</F>
+        <F>Ligne de transmission ou de transport d'énergie / Prairie humide</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="548">
+        <F>548</F>
+        <F>7501</F>
+        <F>88</F>
+        <F>7501</F>
+        <F>Bouleau gris / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="549">
+        <F>549</F>
+        <F>7503</F>
+        <F>3</F>
+        <F>7503</F>
+        <F>Bouleau gris associé à des résineux tolérants / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="550">
+        <F>550</F>
+        <F>7511</F>
+        <F>2</F>
+        <F>7511</F>
+        <F>Bouleau jaune associé à des sapin baumier et/ou épinette blanche / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="551">
+        <F>551</F>
+        <F>7529</F>
+        <F>125</F>
+        <F>7529</F>
+        <F>Érable argenté / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="552">
+        <F>552</F>
+        <F>7533</F>
+        <F>36</F>
+        <F>7533</F>
+        <F>Épinette blanche / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="553">
+        <F>553</F>
+        <F>7535</F>
+        <F>10</F>
+        <F>7535</F>
+        <F>Épinette blanche associée à des feuillus tolérants / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="554">
+        <F>554</F>
+        <F>7547</F>
+        <F>140</F>
+        <F>7547</F>
+        <F>Érable rouge / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="555">
+        <F>555</F>
+        <F>7550</F>
+        <F>5</F>
+        <F>7550</F>
+        <F>Érable rouge associé à des pins / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="556">
+        <F>556</F>
+        <F>7553</F>
+        <F>40</F>
+        <F>7553</F>
+        <F>Érable rouge associé à des sapin baumier et/ou épinette blanche / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="557">
+        <F>557</F>
+        <F>7565</F>
+        <F>129</F>
+        <F>7565</F>
+        <F>Érables / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="558">
+        <F>558</F>
+        <F>7574</F>
+        <F>13</F>
+        <F>7574</F>
+        <F>Érable à sucre / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="559">
+        <F>559</F>
+        <F>7583</F>
+        <F>6</F>
+        <F>7583</F>
+        <F>Épinette rouge / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="560">
+        <F>560</F>
+        <F>7595</F>
+        <F>50</F>
+        <F>7595</F>
+        <F>Feuillus intolérants / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="561">
+        <F>561</F>
+        <F>7601</F>
+        <F>53</F>
+        <F>7601</F>
+        <F>Feuillus intolérants associés à des sapin baumier et/ou épinette blanche / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="562">
+        <F>562</F>
+        <F>7615</F>
+        <F>7</F>
+        <F>7615</F>
+        <F>Feuillus tolérants / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="563">
+        <F>563</F>
+        <F>7618</F>
+        <F>6</F>
+        <F>7618</F>
+        <F>Feuillus tolérants associés à des pins / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="564">
+        <F>564</F>
+        <F>7621</F>
+        <F>50</F>
+        <F>7621</F>
+        <F>Feuillus tolérants associés à des sapin baumier et/ou épinette blanche / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="565">
+        <F>565</F>
+        <F>7623</F>
+        <F>141</F>
+        <F>7623</F>
+        <F>Feuillus indéterminés / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="566">
+        <F>566</F>
+        <F>7630</F>
+        <F>2</F>
+        <F>7630</F>
+        <F>Hêtre à grandes feuilles / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="567">
+        <F>567</F>
+        <F>7653</F>
+        <F>36</F>
+        <F>7653</F>
+        <F>Pin blanc associé à des érables / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="568">
+        <F>568</F>
+        <F>7658</F>
+        <F>89</F>
+        <F>7658</F>
+        <F>Peupliers / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="569">
+        <F>569</F>
+        <F>7659</F>
+        <F>1</F>
+        <F>7659</F>
+        <F>Peupliers associés à des épinettes noire ou rouge / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="570">
+        <F>570</F>
+        <F>7663</F>
+        <F>2</F>
+        <F>7663</F>
+        <F>Peupliers associés à des sapin baumier et/ou épinette blanche / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="571">
+        <F>571</F>
+        <F>7688</F>
+        <F>13</F>
+        <F>7688</F>
+        <F>Pruche du Canada associée à du bouleau jaune / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="572">
+        <F>572</F>
+        <F>7693</F>
+        <F>1</F>
+        <F>7693</F>
+        <F>Résineux / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="573">
+        <F>573</F>
+        <F>7699</F>
+        <F>1</F>
+        <F>7699</F>
+        <F>Sapin baumier / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="574">
+        <F>574</F>
+        <F>7702</F>
+        <F>9</F>
+        <F>7702</F>
+        <F>Sapin baumier associé à des érables / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="575">
+        <F>575</F>
+        <F>7703</F>
+        <F>6</F>
+        <F>7703</F>
+        <F>Sapin baumier associé à des feuillus intolérants / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="576">
+        <F>576</F>
+        <F>7704</F>
+        <F>1</F>
+        <F>7704</F>
+        <F>Sapin baumier associé à des feuillus tolérants / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="577">
+        <F>577</F>
+        <F>7731</F>
+        <F>1</F>
+        <F>7731</F>
+        <F>Peuplement issu d'une plantation mélangée indigène / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="578">
+        <F>578</F>
+        <F>7732</F>
+        <F>4</F>
+        <F>7732</F>
+        <F>Peuplement issu d'une plantation de résineux indigènes / Prairie humide</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="579">
+        <F>579</F>
+        <F>8055</F>
+        <F>301</F>
+        <F>8055</F>
+        <F>Friche / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="580">
+        <F>580</F>
+        <F>8122</F>
+        <F>452</F>
+        <F>8122</F>
+        <F>Culture pérenne et pâturage / Tourbière ombrotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="581">
+        <F>581</F>
+        <F>8158</F>
+        <F>52</F>
+        <F>8158</F>
+        <F>Soya / Tourbière ombrotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="582">
+        <F>582</F>
+        <F>8177</F>
+        <F>320</F>
+        <F>8177</F>
+        <F>Pomme de terre / Tourbière ombrotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="583">
+        <F>583</F>
+        <F>8182</F>
+        <F>26</F>
+        <F>8182</F>
+        <F>Canneberge / Tourbière ombrotrophe</F>
+        <F>1</F>
+        <F>Agricole</F>
+      </Row>
+      <Row index="584">
+        <F>584</F>
+        <F>8230</F>
+        <F>76</F>
+        <F>8230</F>
+        <F>Forêt mixte / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="585">
+        <F>585</F>
+        <F>8253</F>
+        <F>809</F>
+        <F>8253</F>
+        <F>Coupe forestière / Tourbière ombrotrophe</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="586">
+        <F>586</F>
+        <F>8255</F>
+        <F>121</F>
+        <F>8255</F>
+        <F>Plantation / Tourbière ombrotrophe</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="587">
+        <F>587</F>
+        <F>8257</F>
+        <F>1</F>
+        <F>8257</F>
+        <F>Plantation mélangée indigène / Tourbière ombrotrophe</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="588">
+        <F>588</F>
+        <F>8258</F>
+        <F>309</F>
+        <F>8258</F>
+        <F>Plantation de résineux indigènes / Tourbière ombrotrophe</F>
+        <F>6</F>
+        <F>Coupe et régénération</F>
+      </Row>
+      <Row index="589">
+        <F>589</F>
+        <F>8280</F>
+        <F>346</F>
+        <F>8280</F>
+        <F>Perturbation naturelle / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="590">
+        <F>590</F>
+        <F>8301</F>
+        <F>66</F>
+        <F>8301</F>
+        <F>Zone développée / Tourbière ombrotrophe</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="591">
+        <F>591</F>
+        <F>8320</F>
+        <F>96</F>
+        <F>8320</F>
+        <F>Route ou chemin / Tourbière ombrotrophe</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="592">
+        <F>592</F>
+        <F>8351</F>
+        <F>1845</F>
+        <F>8351</F>
+        <F>Ligne de transmission ou de transport d'énergie / Tourbière ombrotrophe</F>
+        <F>5</F>
+        <F>Anthropique</F>
+      </Row>
+      <Row index="593">
+        <F>593</F>
+        <F>8501</F>
+        <F>25</F>
+        <F>8501</F>
+        <F>Bouleau gris / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="594">
+        <F>594</F>
+        <F>8503</F>
+        <F>17</F>
+        <F>8503</F>
+        <F>Bouleau gris associé à des résineux tolérants / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="595">
+        <F>595</F>
+        <F>8538</F>
+        <F>6</F>
+        <F>8538</F>
+        <F>Épinette noire / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="596">
+        <F>596</F>
+        <F>8543</F>
+        <F>150</F>
+        <F>8543</F>
+        <F>Épinette noire associée à du mélèze laricin / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="597">
+        <F>597</F>
+        <F>8545</F>
+        <F>69</F>
+        <F>8545</F>
+        <F>Épinette noire associée à du sapin baumier / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="598">
+        <F>598</F>
+        <F>8547</F>
+        <F>51</F>
+        <F>8547</F>
+        <F>Érable rouge / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="599">
+        <F>599</F>
+        <F>8549</F>
+        <F>1</F>
+        <F>8549</F>
+        <F>Érable rouge associé à du mélèze laricin / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="600">
+        <F>600</F>
+        <F>8550</F>
+        <F>21</F>
+        <F>8550</F>
+        <F>Érable rouge associé à des pins / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="601">
+        <F>601</F>
+        <F>8552</F>
+        <F>2</F>
+        <F>8552</F>
+        <F>Érable rouge associé à des résineux / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="602">
+        <F>602</F>
+        <F>8553</F>
+        <F>21</F>
+        <F>8553</F>
+        <F>Érable rouge associé à des sapin baumier et/ou épinette blanche / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="603">
+        <F>603</F>
+        <F>8565</F>
+        <F>70</F>
+        <F>8565</F>
+        <F>Érables / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="604">
+        <F>604</F>
+        <F>8587</F>
+        <F>86</F>
+        <F>8587</F>
+        <F>Épinette rouge associée à des feuillus indéterminés / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="605">
+        <F>605</F>
+        <F>8595</F>
+        <F>3</F>
+        <F>8595</F>
+        <F>Feuillus intolérants / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="606">
+        <F>606</F>
+        <F>8601</F>
+        <F>8</F>
+        <F>8601</F>
+        <F>Feuillus intolérants associés à des sapin baumier et/ou épinette blanche / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="607">
+        <F>607</F>
+        <F>8621</F>
+        <F>5</F>
+        <F>8621</F>
+        <F>Feuillus tolérants associés à des sapin baumier et/ou épinette blanche / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="608">
+        <F>608</F>
+        <F>8623</F>
+        <F>468</F>
+        <F>8623</F>
+        <F>Feuillus indéterminés / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="609">
+        <F>609</F>
+        <F>8628</F>
+        <F>9</F>
+        <F>8628</F>
+        <F>Feuillus indéterminés associés à des sapin baumier et/ou épinette blanche / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="610">
+        <F>610</F>
+        <F>8634</F>
+        <F>1027</F>
+        <F>8634</F>
+        <F>Mélèze laricin / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="611">
+        <F>611</F>
+        <F>8635</F>
+        <F>39</F>
+        <F>8635</F>
+        <F>Mélèze laricin associé à des feuillus intolérants / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="612">
+        <F>612</F>
+        <F>8637</F>
+        <F>1</F>
+        <F>8637</F>
+        <F>Mélèze laricin associé à des feuillus indéterminés / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="613">
+        <F>613</F>
+        <F>8651</F>
+        <F>17</F>
+        <F>8651</F>
+        <F>Pin blanc / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="614">
+        <F>614</F>
+        <F>8653</F>
+        <F>15</F>
+        <F>8653</F>
+        <F>Pin blanc associé à des érables / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="615">
+        <F>615</F>
+        <F>8658</F>
+        <F>91</F>
+        <F>8658</F>
+        <F>Peupliers / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="616">
+        <F>616</F>
+        <F>8663</F>
+        <F>30</F>
+        <F>8663</F>
+        <F>Peupliers associés à des sapin baumier et/ou épinette blanche / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="617">
+        <F>617</F>
+        <F>8664</F>
+        <F>39</F>
+        <F>8664</F>
+        <F>Pin gris / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="618">
+        <F>618</F>
+        <F>8699</F>
+        <F>77</F>
+        <F>8699</F>
+        <F>Sapin baumier / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="619">
+        <F>619</F>
+        <F>8702</F>
+        <F>4</F>
+        <F>8702</F>
+        <F>Sapin baumier associé à des érables / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="620">
+        <F>620</F>
+        <F>8703</F>
+        <F>5</F>
+        <F>8703</F>
+        <F>Sapin baumier associé à des feuillus intolérants / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="621">
+        <F>621</F>
+        <F>8724</F>
+        <F>2</F>
+        <F>8724</F>
+        <F>Thuyas occidental / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="622">
+        <F>622</F>
+        <F>8732</F>
+        <F>33</F>
+        <F>8732</F>
+        <F>Peuplement issu d'une plantation de résineux indigènes / Tourbière ombrotrophe</F>
+        <F>3</F>
+        <F>Humide</F>
+      </Row>
+      <Row index="623">
+        <F>623</F>
+        <F>9999</F>
+        <F>713</F>
+        <F>9999</F>
+        <F>Territoire non photo-interprété</F>
+        <F>9</F>
+        <F>Non classifié</F>
+      </Row>
+    </GDALRasterAttributeTable>
+    <Metadata>
+      <MDI key="SourceBandIndex">0</MDI>
+      <MDI key="STATISTICS_COVARIANCES">947506.6297959309</MDI>
+      <MDI key="STATISTICS_EXCLUDEDVALUES"></MDI>
+      <MDI key="STATISTICS_MAXIMUM">9999</MDI>
+      <MDI key="STATISTICS_MEAN">620.77627845088</MDI>
+      <MDI key="STATISTICS_MEDIAN">nan</MDI>
+      <MDI key="STATISTICS_MINIMUM">20</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">973.39952218805</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

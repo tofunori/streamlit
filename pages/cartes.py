@@ -65,6 +65,8 @@ buffers = {
 # Add radio button for buffer selection
 selected_buffer = st.sidebar.radio("**Sélection des buffers:**", ["500m", "1km", "2km"])
 
+st.sidebar.markdown("**Sélection des couches:**")
+
 # For each shapefile in the selected buffer, add a toggle switch
 selected_shapefiles = []
 for shapefile_name in buffers[selected_buffer].keys():
@@ -125,7 +127,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
         def route_style(feature):
             return {
                 'color': 'red',  # Set your desired line color here
-                'weight': 2,       # Set the line width
+                'weight': 3,       # Set the line width
                 'opacity': 1
             }
         m.add_gdf(
@@ -201,7 +203,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
         def style(feature):
             return {
                 'color': 'red',  # Set your desired line color here
-                'weight': 2,       # Set the line width
+                'weight': 3,       # Set the line width
                 'opacity': 1
             }
         m.add_gdf(
@@ -240,23 +242,33 @@ def add_shapefile_to_map(shapefile_name, gdf):
         )
 
     elif shapefile_name == "Rivières 2km":
-        m.add_data(
-            data=gdf,
-            column='length',  # Replace 'DESC_CAT' with actual column name
-            key_on='feature.properties.length',
-            add_legend=False,
-            cmap='Set1',
-            legend_name='Category'
+        
+        def style(feature):
+            return {
+                'color': 'blue',  # Set your desired line color here
+                'weight': 2,       # Set the line width
+                'opacity': 1
+            }
+        m.add_gdf(
+            gdf=gdf,
+            layer_name="Rivières 2km",
+            style_function=style,
+            zoom_to_layer=True
+            # You can add other parameters as needed
         )
        
     elif shapefile_name == "Réseau ferroviaire 2km":
-        m.add_data(
-            data=gdf,
-            column='Site', 
-            cmap="PuBuGn_r",
-            key_on='feature.properties.Site',
-            add_legend=False,
-            legend_name='Category'
+        def style(feature):
+            return {
+                'color': 'red',  # Set your desired line color here
+                'weight': 3,       # Set the line width
+                'opacity': 1
+            }
+        m.add_gdf(
+            gdf=gdf,
+            layer_name="Réseau ferroviaire 2km",
+            style_function=style,
+            zoom_to_layer=True
         )
         
     elif shapefile_name == "Couverture forestière 2km":
@@ -279,13 +291,17 @@ def add_shapefile_to_map(shapefile_name, gdf):
             legend_name='Category'
         )       
     elif shapefile_name == "Routes 2km":
-        m.add_data(
-            data=gdf,
-            column='length',  # Replace 'DESC_CAT' with actual column name
-            key_on='feature.properties.Site',
-            add_legend=False,
-            cmap='Set1',
-            legend_name='Category'
+        def style(feature):
+            return {
+                'color': 'black',  # Set your desired line color here
+                'weight': 2,       # Set the line width
+                'opacity': 1
+            }
+        m.add_gdf(
+            gdf=gdf,
+            layer_name="Routes 2km",
+            style_function=style
+            # You can add other parameters as needed
         )
     
    

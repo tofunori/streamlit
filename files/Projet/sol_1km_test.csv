@@ -1,0 +1,89 @@
+,id,Type sol,1km_Superficie_m2,500m_Superficie_k2
+0,0,Agricole,9073871.85,9.07
+1,0,Anthropique,1439019.2,1.44
+2,0,Forestier,58680881.63,58.68
+3,0,Humide,190490.51,0.19
+4,1,Agricole,64137309.83,64.14
+5,1,Anthropique,41604.34,0.04
+6,1,Aquatique,28255.6,0.03
+7,1,Coupe et régénérat,17772.62,0.02
+8,1,Forestier,11436420.85,11.44
+9,1,Humide,77515.3,0.08
+10,1,Non classifié,1991.53,0.0
+11,2,Agricole,6794962.65,6.79
+12,2,Anthropique,182582.83,0.18
+13,2,Aquatique,10958.61,0.01
+14,2,Coupe et régénérat,9122.18,0.01
+15,2,Forestier,18197545.75,18.2
+16,2,Humide,77797.69,0.08
+17,2,Non classifié,319.76,0.0
+18,3,Agricole,85603117.6,85.6
+19,3,Anthropique,120140.33,0.12
+20,3,Aquatique,1315.91,0.0
+21,3,Coupe et régénérat,6580.81,0.01
+22,3,Forestier,40345226.18,40.35
+23,3,Humide,6855.29,0.01
+24,4,Agricole,4156635.87,4.16
+25,4,Anthropique,343395.3,0.34
+26,4,Aquatique,15940.75,0.02
+27,4,Coupe et régénérat,206317.69,0.21
+28,4,Forestier,31315393.17,31.32
+29,4,Humide,2875563.07,2.88
+30,4,Non classifié,1077.65,0.0
+31,5,Agricole,8693737.9,8.69
+32,5,Anthropique,300971.65,0.3
+33,5,Aquatique,9063.33,0.01
+34,5,Coupe et régénérat,64622.13,0.06
+35,5,Forestier,2802456.9,2.8
+36,5,Humide,232777.5,0.23
+37,6,Agricole,533912.37,0.53
+38,6,Anthropique,65978959.37,65.98
+39,6,Coupe et régénérat,52473.68,0.05
+40,6,Forestier,8275123.92,8.28
+41,7,Agricole,27304707.64,27.3
+42,7,Anthropique,64244418.03,64.24
+43,7,Aquatique,59930.24,0.06
+44,7,Coupe et régénérat,62798.18,0.06
+45,7,Forestier,6071232.61,6.07
+46,7,Humide,411955.12,0.41
+47,8,Agricole,2994842.63,2.99
+48,8,Anthropique,64186879.69,64.19
+49,8,Aquatique,23715034.87,23.72
+50,8,Coupe et régénérat,7914.74,0.01
+51,8,Forestier,5295428.36,5.3
+52,8,Humide,1502247.71,1.5
+53,9,Agricole,2850974.68,2.85
+54,9,Anthropique,64113167.98,64.11
+55,9,Aquatique,23682417.91,23.68
+56,9,Forestier,5271018.6,5.27
+57,9,Humide,1498397.18,1.5
+58,10,Agricole,27499706.63,27.5
+59,10,Anthropique,220377.54,0.22
+60,10,Aquatique,3088.28,0.0
+61,10,Coupe et régénérat,66925.84,0.07
+62,10,Forestier,33691693.98,33.69
+63,10,Humide,773078.45,0.77
+64,11,Agricole,36546.08,0.04
+65,11,Anthropique,64064341.91,64.06
+66,11,Aquatique,15692.53,0.02
+67,11,Coupe et régénérat,400549.34,0.4
+68,11,Forestier,9138044.59,9.14
+69,11,Humide,943016.64,0.94
+70,12,Agricole,36546.08,0.04
+71,12,Anthropique,64064617.95,64.06
+72,12,Aquatique,15692.53,0.02
+73,12,Coupe et régénérat,400643.84,0.4
+74,12,Forestier,9141571.85,9.14
+75,12,Humide,942915.42,0.94
+76,13,Agricole,7674539.54,7.67
+77,13,Anthropique,48080.99,0.05
+78,13,Aquatique,12945.05,0.01
+79,13,Coupe et régénérat,183243.37,0.18
+80,13,Forestier,28908969.96,28.91
+81,13,Humide,2891564.36,2.89
+82,14,Agricole,8373203.3,8.37
+83,14,Anthropique,64281826.95,64.28
+84,14,Aquatique,124545.78,0.12
+85,14,Coupe et régénérat,17588.76,0.02
+86,14,Forestier,65650497.56,65.65
+87,14,Humide,162760.23,0.16
