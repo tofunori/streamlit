@@ -4,5 +4,6 @@ geopandas
 fiona
 folium
 mapclassify
+plotly.express
 # any other necessary packages
 
