@@ -4,7 +4,7 @@ import geopandas as gpd
 
 st.title("**PICOM Corridors écologiques**")
 
-st.image('files/images/forest.jpg', caption='Corridor écologique')
+st.image('files/images/forest.jpg', caption='photo: Fanny Bec')
 
 st.write("""
 
