@@ -28,6 +28,26 @@ column_mappings = {
     "railroad_buffers_2km_2.shp": {"length_col": "length", "site_col": "Site"},
 }
 
+custom_titles = {
+    "sol_500m.shp": "Soil Utilization - 500m Buffer",
+    "slope_500m.shp": "Slope Categories - 500m Buffer",
+    "landcover_500m.shp": "Land Cover Types - 500m Buffer",
+    "sol_1km.shp": "Soil Utilization - 1km Buffer",	
+    "slope_1km.shp": "Slope Categories - 1km Buffer",	
+    "landcover_1km.shp": "Land Cover Types - 1km Buffer",	
+    "sol_2km.shp": "Soil Utilization - 2km Buffer",
+    "slope_2km.shp": "Slope Categories - 2km Buffer",
+    "landcover_2km.shp": "Land Cover Types - 2km Buffer",
+    "railroad_buffers_500m.shp": "Total Railroad Length - 500m Buffer",
+    "railroad_buffers_1km.shp": "Total Railroad Length - 1km Buffer",
+    "railroad_buffers_2km_2.shp": "Total Railroad Length - 2km Buffer",
+    "roads_buffers_1km.shp": "Total Road Length - 1km Buffer",
+    "rivieres_buffers_1km.shp": "Total River Length - 1km Buffer",
+    "roads_buffers_2km.shp": "Total Road Length - 2km Buffer",
+    "roads_buffers_500m.shp": "Total Road Length - 500m Buffer",
+    "rivieres_buffers_500m.shp": "Total River Length - 500m Buffer",
+    # ... add custom titles for all shapefiles ...
+}
 
 # Create a select box for file selection
 selected_shapefile = st.sidebar.selectbox("Select a Shapefile", shapefiles)
@@ -36,7 +56,11 @@ selected_shapefile = st.sidebar.selectbox("Select a Shapefile", shapefiles)
 shapefile_path = f"files/{selected_shapefile}"
 sol_data = gpd.read_file(shapefile_path)
 
-if selected_shapefile in ["roads_buffers_500m.shp", "rivieres_buffers_500m.shp", "railroad_buffers_500m.shp", "roads_buffers_1km.shp", "rivieres_buffers_1km.shp", "railroad_buffers_1km.shp", "roads_buffers_2km.shp", "rivieres_buffers_2km.shp", "railroad_buffers_2km.shp"]:
+# Get the custom title for the selected shapefile
+chart_title = custom_titles.get(selected_shapefile, "Graphique")
+
+# Check if the selected shapefile has 'length' and 'Site' columns
+if selected_shapefile in column_mappings.keys() and 'length_col' in column_mappings[selected_shapefile]:
     mapping = column_mappings[selected_shapefile]
     sol_data.rename(columns={mapping["length_col"]: "length", mapping["site_col"]: "Site"}, inplace=True)
 
@@ -53,7 +77,7 @@ if selected_shapefile in ["roads_buffers_500m.shp", "rivieres_buffers_500m.shp",
         color='Site:N',
         tooltip=['Site:N', 'length:Q']
     ).properties(
-        title='Total Length by Site',
+        title=chart_title,  # Use the custom title
         width=800,
         height=500
     )
@@ -77,7 +101,7 @@ else:
         y='area', 
         color='Site', 
         barmode='group', 
-        title='Graphique', 
+        title=chart_title,  # Use the custom title
         width=800, 
         height=500
     )
