@@ -44,11 +44,11 @@ custom_titles = {
     "railroad_buffers_1km.shp": "Réseau férroviaire - 1km Buffer",
     "railroad_buffers_2km_2.shp": "Réseau férroviaire - 2km Buffer",
     "roads_buffers_1km.shp": "Routes - 1km Buffer",
-    "rivieres_buffers_1km.shp": "RivièresLength - 1km Buffer",
+    "rivieres_buffers_1km.shp": "Rivières - 1km Buffer",
     "roads_buffers_2km.shp": "Routes - 2km Buffer",
     "roads_buffers_500m.shp": "Routes - 500m Buffer",
-    "rivieres_buffers_500m.shp": "RivièresLength - 500m Buffer",
-    "rivieres_buffers_2km.shp": "RivièresLength - 2km Buffer",
+    "rivieres_buffers_500m.shp": "Rivières - 500m Buffer",
+    "rivieres_buffers_2km.shp": "Rivières - 2km Buffer",
     # ... add custom titles for all shapefiles ...
 }
 # Create a select box for file selection with custom titles
@@ -78,7 +78,7 @@ if selected_shapefile in column_mappings.keys() and 'length_col' in column_mappi
     # Create an Altair bar chart
     chart = alt.Chart(grouped_data).mark_bar().encode(
         x=alt.X('Site:N', axis=alt.Axis(title='Site')),  # Change X-axis label
-        y=alt.Y('length:Q', axis=alt.Axis(title='Longueur en mètre carré')),
+        y=alt.Y('length:Q', axis=alt.Axis(title='Somme des longueurs en mètre')),
         color='Site:N',
         tooltip=['Site:N', 'length:Q']
     ).properties(
