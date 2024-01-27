@@ -29,29 +29,31 @@ column_mappings = {
 }
 
 custom_titles = {
-    "sol_500m.shp": "Soil Utilization - 500m Buffer",
-    "slope_500m.shp": "Slope Categories - 500m Buffer",
-    "landcover_500m.shp": "Land Cover Types - 500m Buffer",
-    "sol_1km.shp": "Soil Utilization - 1km Buffer",	
-    "slope_1km.shp": "Slope Categories - 1km Buffer",	
-    "landcover_1km.shp": "Land Cover Types - 1km Buffer",	
-    "sol_2km.shp": "Soil Utilization - 2km Buffer",
-    "slope_2km.shp": "Slope Categories - 2km Buffer",
-    "landcover_2km.shp": "Land Cover Types - 2km Buffer",
-    "railroad_buffers_500m.shp": "Total Railroad Length - 500m Buffer",
-    "railroad_buffers_1km.shp": "Total Railroad Length - 1km Buffer",
-    "railroad_buffers_2km_2.shp": "Total Railroad Length - 2km Buffer",
-    "roads_buffers_1km.shp": "Total Road Length - 1km Buffer",
-    "rivieres_buffers_1km.shp": "Total River Length - 1km Buffer",
-    "roads_buffers_2km.shp": "Total Road Length - 2km Buffer",
-    "roads_buffers_500m.shp": "Total Road Length - 500m Buffer",
-    "rivieres_buffers_500m.shp": "Total River Length - 500m Buffer",
-    "rivieres_buffers_2km.shp": "Total River Length - 2km Buffer",
+    "sol_500m.shp": "Utilisation du sol - 500m Buffer",
+    "slope_500m.shp": "Pente - 500m Buffer",
+    "landcover_500m.shp": "Couverture forestière - 500m Buffer",
+    "sol_1km.shp": "Utilisation du sol - 1km Buffer",	
+    "slope_1km.shp": "Pente - 1km Buffer",	
+    "landcover_1km.shp": "Couverture forestière - 1km Buffer",	
+    "sol_2km.shp": "Utilisation du sol - 2km Buffer",
+    "slope_2km.shp": "Pente - 2km Buffer",
+    "landcover_2km.shp": "Couverture forestière - 2km Buffer",
+    "railroad_buffers_500m.shp": "Réseau férroviaire - 500m Buffer",
+    "railroad_buffers_1km.shp": "Réseau férroviaire - 1km Buffer",
+    "railroad_buffers_2km_2.shp": "Réseau férroviaire - 2km Buffer",
+    "roads_buffers_1km.shp": "Routes - 1km Buffer",
+    "rivieres_buffers_1km.shp": "RivièresLength - 1km Buffer",
+    "roads_buffers_2km.shp": "Routes - 2km Buffer",
+    "roads_buffers_500m.shp": "Routes - 500m Buffer",
+    "rivieres_buffers_500m.shp": "RivièresLength - 500m Buffer",
+    "rivieres_buffers_2km.shp": "RivièresLength - 2km Buffer",
     # ... add custom titles for all shapefiles ...
 }
+# Create a select box for file selection with custom titles
+selected_title = st.sidebar.selectbox("Sélectionner une couche:", list(custom_titles.values()))
 
-# Create a select box for file selection
-selected_shapefile = st.sidebar.selectbox("Select a Shapefile", shapefiles)
+# Find the original shapefile name corresponding to the selected title
+selected_shapefile = [key for key, value in custom_titles.items() if value == selected_title][0]
 
 # Load the selected shapefile
 shapefile_path = f"files/{selected_shapefile}"
@@ -108,7 +110,7 @@ else:
     )
 
     fig.update_layout(
-        xaxis_title="Utilisation du sol par site", 
+        xaxis_title="Résultats groupés par catégorie", 
         yaxis_title="Superficie en mètre carré"
     )
 

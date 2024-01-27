@@ -6,11 +6,12 @@ st.set_page_config(
     layout="wide",
     page_icon="🧊",
     menu_items={
-        'Get Help': 'https://www.extremelycoolapp.com/help',
-        'Report a bug': "https://www.extremelycoolapp.com/bug",
-        'About': "# This is a header. This is an *extremely* cool app!",
+        "About": "#Cette plateforme web a été développée par Thierry Laurent-St-Pierre, étudiant au Baccalauréat en Géographie environnementale à l'Université du Québec à Trois-Rivières en janvier 2024.",
+        'Report a bug': "thierry.laurent-st-pierre@uqtr.ca",
     }
-    )
+)
+
+
 
 st.title('Carte intéractive des données')
 col1, col2 = st.columns([8.5, 1.5])
