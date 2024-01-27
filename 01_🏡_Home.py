@@ -32,20 +32,3 @@ Cette application offre une visualisation de l'espace concerné par le projet, a
 
 L'application permet également de visualiser les différentes variables analysées et l'étendue de leur couverture au sein de chaque zone tampon. Les variables analysées comprennent les routes, les cours d'eau, les voies ferrées, les dépôts de surface, le type de couverture végétale, et le type d’occupation du territoire.
 """)
-st.write("- Les données sont disponibles sous forme de fichiers Shapefile et de fichiers Excel:")
-
-# Path to the existing ZIP file
-zip_file_path = 'files/picom_data.zip'  # Replace with your ZIP file path
-
-
-# Put the download button in the second column
-with open(zip_file_path, "rb") as file:
-    # Create the download button in the second column
-    st.download_button(
-        label="Données",
-        data=file,
-        file_name="data.zip",
-        mime="application/zip"
-    )
-    
-    st.write("- Le code source des analyses est disponible sur [GitHub](https://github.com/tofunori/Multi-buffers-data-extraction")
