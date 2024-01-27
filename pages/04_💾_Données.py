@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import openpyxl
 
 st.set_page_config(page_icon="💾")
 
@@ -24,3 +26,12 @@ with open(zip_file_path, "rb") as file:
     st.write(" ")
     st.write("  ")
     st.write("Le code source des analyses réalisées sous Python est disponible sur GitHub: https://github.com/tofunori/Multi-buffers-data-extraction")
+    st.write(" ")
+    st.write("  ")
+    st.markdown("### Les résultats des analyses sont disponibles dans le fichier Excel suivant:")
+    st.write(" ")
+    df = pd.read_excel('files/Resultats_Analyses.xlsx')
+    
+    st.dataframe(df)
+    
+    
