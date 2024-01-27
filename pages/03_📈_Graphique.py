@@ -5,6 +5,8 @@ import altair as alt
 
 st.set_page_config(page_icon="📈")
 
+st.title("**Graphique**")
+
 st.write(" Cette page permet de visualiser à l'aide d'un graphique à bar, les différentes variables analysées et l'étendue de leur couverture au sein de chaque zone tampon.")
 
 # Define a list of available shapefiles
