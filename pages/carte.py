@@ -6,8 +6,9 @@ st.set_page_config(
     layout="wide",
     page_icon="🧊",
     menu_items={
-        "About": "#Cette plateforme web a été développée par Thierry Laurent-St-Pierre, étudiant au Baccalauréat en Géographie environnementale à l'Université du Québec à Trois-Rivières en janvier 2024.",
-        'Report a bug': "thierry.laurent-st-pierre@uqtr.ca",
+        'Get Help': 'https://www.extremelycoolapp.com/help',
+        'Report a bug': "https://www.extremelycoolapp.com/bug",
+        'About': "# This is a header. This is an *extremely* cool app!"
     }
 )
 

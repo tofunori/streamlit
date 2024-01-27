@@ -2,6 +2,17 @@ import streamlit as st
 import leafmap.foliumap as leafmap
 import geopandas as gpd
 
+st.set_page_config(
+    layout="wide",
+    page_icon="🧊",
+    menu_items={
+        'Get Help': 'https://www.extremelycoolapp.com/help',
+        'Report a bug': "https://www.extremelycoolapp.com/bug",
+        'About': "Cette application a été développée par Thierry Laurent St-Pierre, étudiant au Baccalauréat en Géographie environnementale à l'Université du Québec à Trois-Rivières."
+    }
+)
+
+
 st.title("**PICOM Corridors écologiques**")
 st.write(" ")
 # Title for the sidebar

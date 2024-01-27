@@ -3,6 +3,8 @@ import geopandas as gpd
 import plotly.express as px
 import altair as alt
 
+st.write(" Cette page permet de visualiser à l'aide d'un graphique à bar, les différentes variables analysées et l'étendue de leur couverture au sein de chaque zone tampon.")
+
 # Define a list of available shapefiles
 shapefiles = ["sol_500m.shp", "slope_500m.shp", "landcover_500m.shp", "sol_1km.shp", "slope_1km.shp", "landcover_1km.shp", "sol_2km.shp", "slope_2km.shp", "landcover_2km.shp", "roads_buffers_500m.shp", "rivieres_buffers_500m.shp", "railroad_buffers_500m.shp", "roads_buffers_1km.shp", "rivieres_buffers_1km.shp", "railroad_buffers_1km.shp", "roads_buffers_2km.shp", "rivieres_buffers_2km.shp", "railroad_buffers_2km_2.shp"]
 
@@ -75,8 +77,8 @@ if selected_shapefile in column_mappings.keys() and 'length_col' in column_mappi
 
     # Create an Altair bar chart
     chart = alt.Chart(grouped_data).mark_bar().encode(
-        x='Site:N',  # The ':N' tells Altair that the column is nominal (categorical)
-        y='length:Q',  # The ':Q' tells Altair that the column is quantitative
+        x=alt.X('Site:N', axis=alt.Axis(title='Site')),  # Change X-axis label
+        y=alt.Y('length:Q', axis=alt.Axis(title='Longueur en mètre carré')),
         color='Site:N',
         tooltip=['Site:N', 'length:Q']
     ).properties(
