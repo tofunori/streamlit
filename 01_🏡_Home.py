@@ -15,7 +15,6 @@ st.set_page_config(
 st.title("**PICOM Corridors écologiques**")
 st.write(" ")
 # Title for the sidebar
-st.sidebar.title("Menu")
 st.image('files/images/forest.jpg', caption='Photo: Fanny Bec')
 
 st.write("""
