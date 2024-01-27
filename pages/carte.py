@@ -2,18 +2,6 @@ import streamlit as st
 import leafmap.foliumap as leafmap
 import geopandas as gpd
 
-st.set_page_config(
-    layout="wide",
-    page_icon="🧊",
-    menu_items={
-        'Get Help': 'https://www.extremelycoolapp.com/help',
-        'Report a bug': "https://www.extremelycoolapp.com/bug",
-        'About': "# This is a header. This is an *extremely* cool app!"
-    }
-)
-
-
-
 st.title('Carte intéractive des données')
 col1, col2 = st.columns([8.5, 1.5])
 
@@ -83,7 +71,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
     if shapefile_name == "Utilisation du sol 500m":
         m.add_data(
             data=gdf,
-            column='DESC_CAT',  # Replace 'DESC_CAT' with actual column name
+            column='DESC_CAT',  
             key_on='feature.properties.DESC_CAT',
             add_legend=False,
             cmap='Set1',
@@ -93,17 +81,17 @@ def add_shapefile_to_map(shapefile_name, gdf):
     elif shapefile_name == "Couverture forestière 500m":
         m.add_data(
             data=gdf,
-            column='TYPE_COUV',  # Replace 'DESC_CAT' with actual column name
+            column='TYPE_COUV',  
             key_on='feature.properties.TYPE_COUV',
             add_legend=False,
-            cmap='Paired',
+            cmap='Greens',
             legend_name='Category'
         )   
         
     elif shapefile_name == "Pente 500m":
         m.add_data(
             data=gdf,
-            column='CL_PENT',  # Replace 'DESC_CAT' with actual column name
+            column='CL_PENT', 
             key_on='feature.properties.CL_PENT',
             add_legend=False,
             cmap='Set3',
@@ -172,7 +160,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
             column='TYPE_COUV',  # Replace 'DESC_CAT' with actual column name
             key_on='feature.properties.TYPE_COUV',
             add_legend=False,
-            cmap='Set1',
+            cmap='Greens',
             legend_name='Category'
         )   
         
@@ -279,7 +267,7 @@ def add_shapefile_to_map(shapefile_name, gdf):
             column='TYPE_COUV',  # Replace 'DESC_CAT' with actual column name
             key_on='feature.properties.TYPE_COUV',
             add_legend=False,
-            cmap='Set1',
+            cmap='Greens',
             legend_name='Category'
         )   
         

@@ -6,18 +6,26 @@ import altair as alt
 st.write(" Cette page permet de visualiser à l'aide d'un graphique à bar, les différentes variables analysées et l'étendue de leur couverture au sein de chaque zone tampon.")
 
 # Define a list of available shapefiles
-shapefiles = ["sol_500m.shp", "slope_500m.shp", "landcover_500m.shp", "sol_1km.shp", "slope_1km.shp", "landcover_1km.shp", "sol_2km.shp", "slope_2km.shp", "landcover_2km.shp", "roads_buffers_500m.shp", "rivieres_buffers_500m.shp", "railroad_buffers_500m.shp", "roads_buffers_1km.shp", "rivieres_buffers_1km.shp", "railroad_buffers_1km.shp", "roads_buffers_2km.shp", "rivieres_buffers_2km.shp", "railroad_buffers_2km_2.shp"]
+shapefiles = [
+    "sol_500m.shp", "slope_500m.shp", "landcover_500m.shp",
+    "sol_1km.shp", "slope_1km.shp", "landcover_1km.shp",
+    "sol_2km.shp", "slope_2km.shp", "landcover_2km.shp",
+    "roads_buffers_500m.shp", "rivieres_buffers_500m.shp", "railroad_buffers_500m.shp",
+    "roads_buffers_1km.shp", "rivieres_buffers_1km.shp", "railroad_buffers_1km.shp",
+    "roads_buffers_2km.shp", "rivieres_buffers_2km.shp", "railroad_buffers_2km_2.shp"
+]
 
 # Define a mapping for each shapefile if they have different column names
 column_mappings = {
     "sol_500m.shp": {"category_col": "DESC_CAT", "site_col": "Site", "area_col": "area"},
-    "slope_500m.shp": {"category_col": "CL_PENT", "site_col": "Site", "area_col": "area"},
-    "landcover_500m.shp": {"category_col": "TYPE_COUV", "site_col": "Site", "area_col": "area"},
     "sol_1km.shp": {"category_col": "DESC_CAT", "site_col": "Site", "area_col": "area"},
+    "sol_2km.shp": {"category_col": "DESC_CAT", "site_col": "Site", "area_col": "area"},
+    "slope_500m.shp": {"category_col": "CL_PENT", "site_col": "Site", "area_col": "area"},
     "slope_1km.shp": {"category_col": "CL_PENT", "site_col": "Site", "area_col": "area"},
+    "slope_2km.shp": {"category_col": "CL_PENT", "site_col": "Site", "area_col": "area"},
+    "landcover_500m.shp": {"category_col": "TYPE_COUV", "site_col": "Site", "area_col": "area"},
     "landcover_1km.shp": {"category_col": "TYPE_COUV", "site_col": "Site", "area_col": "area"},
     "sol_2km.shp": {"category_col": "DESC_CAT", "site_col": "Site", "area_col": "area"},
-    "slope_2km.shp": {"category_col": "CL_PENT", "site_col": "Site", "area_col": "area"},
     "landcover_2km.shp": {"category_col": "TYPE_COUV", "site_col": "Site", "area_col": "area"},
     "roads_buffers_500m.shp": {"length_col": "length", "site_col": "Site"},
     "rivieres_buffers_500m.shp": {"length_col": "length", "site_col": "Site"},
@@ -31,26 +39,26 @@ column_mappings = {
 }
 
 custom_titles = {
-    "sol_500m.shp": "Utilisation du sol - 500m Buffer",
-    "slope_500m.shp": "Pente - 500m Buffer",
-    "landcover_500m.shp": "Couverture forestière - 500m Buffer",
-    "sol_1km.shp": "Utilisation du sol - 1km Buffer",	
-    "slope_1km.shp": "Pente - 1km Buffer",	
-    "landcover_1km.shp": "Couverture forestière - 1km Buffer",	
-    "sol_2km.shp": "Utilisation du sol - 2km Buffer",
-    "slope_2km.shp": "Pente - 2km Buffer",
-    "landcover_2km.shp": "Couverture forestière - 2km Buffer",
-    "railroad_buffers_500m.shp": "Réseau férroviaire - 500m Buffer",
-    "railroad_buffers_1km.shp": "Réseau férroviaire - 1km Buffer",
-    "railroad_buffers_2km_2.shp": "Réseau férroviaire - 2km Buffer",
-    "roads_buffers_1km.shp": "Routes - 1km Buffer",
-    "rivieres_buffers_1km.shp": "Rivières - 1km Buffer",
-    "roads_buffers_2km.shp": "Routes - 2km Buffer",
-    "roads_buffers_500m.shp": "Routes - 500m Buffer",
-    "rivieres_buffers_500m.shp": "Rivières - 500m Buffer",
-    "rivieres_buffers_2km.shp": "Rivières - 2km Buffer",
+'landcover_1km.shp': 'Couverture forestière - 1km Buffer',
+'landcover_2km.shp': 'Couverture forestière - 2km Buffer',
+ 'landcover_500m.shp': 'Couverture forestière - 500m Buffer',
+ 'railroad_buffers_1km.shp': 'Réseau férroviaire - 1km Buffer',
+ 'railroad_buffers_2km_2.shp': 'Réseau férroviaire - 2km Buffer',
+ 'railroad_buffers_500m.shp': 'Réseau férroviaire - 500m Buffer',
+ 'rivieres_buffers_1km.shp': 'Rivières - 1km Buffer',
+ 'rivieres_buffers_2km.shp': 'Rivières - 2km Buffer',
+ 'rivieres_buffers_500m.shp': 'Rivières - 500m Buffer',
+ 'roads_buffers_1km.shp': 'Routes - 1km Buffer',
+ 'roads_buffers_2km.shp': 'Routes - 2km Buffer',
+ 'roads_buffers_500m.shp': 'Routes - 500m Buffer',
+ 'slope_1km.shp': 'Pente - 1km Buffer',
+ 'slope_2km.shp': 'Pente - 2km Buffer',
+ 'slope_500m.shp': 'Pente - 500m Buffer',
+ 'sol_1km.shp': 'Utilisation du sol - 1km Buffer',
+ 'sol_2km.shp': 'Utilisation du sol - 2km Buffer',
+ 'sol_500m.shp': 'Utilisation du sol - 500m Buffer'}
     # ... add custom titles for all shapefiles ...
-}
+
 # Create a select box for file selection with custom titles
 selected_title = st.sidebar.selectbox("Sélectionner une couche:", list(custom_titles.values()))
 
